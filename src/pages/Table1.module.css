@@ -1,0 +1,519 @@
+.taskbarTri {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 180px;
+  height: 982px;
+}
+.div {
+  position: absolute;
+  top: 87px;
+  left: 44px;
+  font-weight: 600;
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+}
+.chefsHatIcon {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 18px);
+  width: 37px;
+  height: 40px;
+  cursor: pointer;
+}
+.div1,
+.menu {
+  position: absolute;
+  top: 94px;
+  left: -1px;
+  width: 160px;
+  height: 144px;
+}
+.div1 {
+  top: 63px;
+  left: 33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 115px;
+  height: 57px;
+}
+.kitchenStoveIcon {
+  position: absolute;
+  top: calc(50% - 37px);
+  left: calc(50% - 19px);
+  width: 33px;
+  height: 38px;
+}
+.bn,
+.bnChild {
+  position: absolute;
+}
+.bnChild {
+  top: 0;
+  left: 9px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange-200);
+  border: 3px solid var(--color-darkorange-100);
+  box-sizing: border-box;
+  width: 131px;
+  height: 112px;
+}
+.bn {
+  top: 240px;
+  left: 5px;
+  width: 148px;
+  height: 120px;
+  color: var(--color-darkorange-100);
+}
+.groupFillIcon {
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 47px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.div2,
+.groupFillIcon,
+.khchHng {
+  position: absolute;
+}
+.div2 {
+  top: 49px;
+  left: -29px;
+  font-weight: 600;
+  display: inline-block;
+  width: 136px;
+  height: 35px;
+}
+.khchHng {
+  top: 382px;
+  left: 53px;
+  width: 44px;
+  height: 47px;
+}
+.subtractIcon {
+  position: relative;
+  width: 33.8px;
+  height: 35.3px;
+}
+.timeAtackFill {
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 47px;
+}
+.div3,
+.lchS,
+.timeAtackFill {
+  position: absolute;
+}
+.div3 {
+  top: 47px;
+  left: -33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 22px;
+}
+.lchS {
+  top: 491px;
+  left: 59px;
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+}
+.chartFillIcon {
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 39px;
+  object-fit: cover;
+}
+.boCo,
+.chartFillIcon,
+.div4 {
+  position: absolute;
+}
+.div4 {
+  top: 39px;
+  left: -25px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 29px;
+}
+.boCo {
+  top: 600px;
+  left: 55px;
+  width: 40px;
+  height: 39px;
+}
+.signOutCircleDuotoneLineIcon {
+  position: absolute;
+  top: 912px;
+  left: 12px;
+  width: 47px;
+  height: 38px;
+  cursor: pointer;
+}
+.div5 {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+.div5,
+.div6,
+.parent {
+  position: absolute;
+}
+.div6 {
+  top: 19px;
+  left: 2px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.01em;
+  color: var(--color-gray-100);
+}
+.parent {
+  top: 912px;
+  left: 69px;
+  width: 47px;
+  height: 37px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.chevronDown2Icon {
+  position: absolute;
+  top: 917px;
+  left: 129px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.taskbarTrn,
+.thanhTri {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.thanhTri {
+  width: 180px;
+  height: 982px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray-200);
+}
+.taskbarTrn {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 94px;
+}
+.span {
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+}
+.p,
+.saigon {
+  margin: 0;
+}
+.p {
+  font-size: var(--font-size-base);
+}
+.saigonContainer {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+}
+.image3Icon,
+.tabTrnChild {
+  position: absolute;
+  top: 16px;
+  left: 635.2px;
+  width: 7.6px;
+  height: 5.4px;
+}
+.image3Icon {
+  top: 13px;
+  left: 201px;
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+}
+.iconWifi {
+  height: 31.91%;
+  width: 2.45%;
+  top: 27.66%;
+  right: 2.91%;
+  bottom: 40.43%;
+  left: 94.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div7,
+.iconWifi,
+.tabTrn {
+  position: absolute;
+}
+.tabTrn {
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 94px;
+  font-size: var(--font-size-13xl);
+}
+.div7 {
+  top: 107px;
+  left: 198px;
+  display: inline-block;
+  width: 162px;
+  height: 24px;
+  cursor: pointer;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  width: 647px;
+  height: 821px;
+}
+.groupItem {
+  top: 2px;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  border-bottom: 2px solid var(--color-darkgray-600);
+  box-sizing: border-box;
+  height: 97px;
+}
+.groupInner {
+  position: absolute;
+  top: 109px;
+  left: 9px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 602px;
+  height: 58px;
+}
+.div8,
+.div9 {
+  position: absolute;
+  top: 123px;
+  left: 48px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 490px;
+}
+.div9 {
+  top: 177px;
+  width: 549px;
+  height: 37px;
+}
+.groupChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 211px;
+  left: 9px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 602px;
+  height: 58px;
+}
+.groupChild1 {
+  top: 306px;
+}
+.div10,
+.div11 {
+  position: absolute;
+  left: 48px;
+  display: inline-block;
+  height: 37px;
+}
+.div10 {
+  top: 224px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  width: 549px;
+}
+.div11 {
+  top: 275px;
+}
+.div11,
+.div12,
+.div13 {
+  font-weight: 500;
+  white-space: pre-wrap;
+  width: 549px;
+}
+.div12 {
+  position: absolute;
+  top: 318px;
+  left: 48px;
+  display: inline-block;
+  height: 37px;
+}
+.div13 {
+  top: 406px;
+  left: 24px;
+}
+.b,
+.div13,
+.div14,
+.div15,
+.div16,
+.div17 {
+  position: absolute;
+  display: inline-block;
+}
+.b {
+  top: 19px;
+  left: 24px;
+  font-size: var(--font-size-13xl);
+  width: 253px;
+  height: 53px;
+}
+.div14,
+.div15,
+.div16,
+.div17 {
+  font-weight: 500;
+}
+.div14 {
+  top: 62px;
+  left: 576px;
+  font-size: var(--font-size-5xl);
+  width: 61px;
+  height: 19px;
+}
+.div15,
+.div16,
+.div17 {
+  top: 490px;
+  left: 24px;
+  white-space: pre-wrap;
+  width: 549px;
+}
+.div16,
+.div17 {
+  top: 438px;
+  width: 230px;
+}
+.div17 {
+  top: 440px;
+  left: 540px;
+  width: 35px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-limegreen);
+  width: 354px;
+  height: 63px;
+}
+.div18 {
+  position: absolute;
+  top: 13px;
+  left: 34px;
+  font-weight: 600;
+  display: inline-block;
+  width: 328px;
+  height: 27px;
+  cursor: pointer;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 724px;
+  left: 162px;
+  width: 354px;
+  height: 63px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.rectangleParent,
+.table2Child {
+  position: absolute;
+  top: 131px;
+  left: 480px;
+  width: 647px;
+  height: 821px;
+}
+.table2Child {
+  top: 690px;
+  left: 613px;
+  background-color: rgba(217, 217, 217, 0.35);
+  width: 347px;
+  height: 106px;
+}
+.frameInput,
+.rectangleInput {
+  margin: 0;
+  position: absolute;
+  top: 698px;
+  left: 840px;
+  width: 38px;
+  height: 40px;
+}
+.rectangleInput {
+  top: 746px;
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+}
+.div19,
+.div20 {
+  position: absolute;
+  top: 705px;
+  left: 623px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 126px;
+  height: 26px;
+}
+.div20 {
+  top: 746px;
+  height: 28px;
+}
+.outlinedevicesprinterIcon,
+.table2Item {
+  position: absolute;
+  top: 150px;
+  left: 1061px;
+  width: 32px;
+  height: 28px;
+}
+.table2Item {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  top: 569px;
+  left: 973px;
+  width: 45px;
+  height: 29px;
+}
+.table2 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

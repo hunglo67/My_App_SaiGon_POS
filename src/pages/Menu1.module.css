@@ -1,0 +1,597 @@
+.taskbarTri {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 180px;
+  height: 982px;
+}
+.div,
+.menuChild,
+.taskbarTri {
+  position: absolute;
+}
+.div {
+  top: 87px;
+  left: 44px;
+  font-weight: 600;
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+}
+.menuChild {
+  top: 22px;
+  left: 14px;
+  border-radius: var(--br-xl);
+  width: 131px;
+  height: 112px;
+}
+.chefsHatIcon {
+  top: calc(50% - 25px);
+  left: calc(50% - 18px);
+  width: 37px;
+  height: 40px;
+}
+.chefsHatIcon,
+.div1,
+.menu {
+  position: absolute;
+}
+.menu {
+  top: 94px;
+  left: -1px;
+  width: 160px;
+  height: 144px;
+  color: var(--color-darkorange-100);
+}
+.div1 {
+  top: 63px;
+  left: 33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 115px;
+  height: 57px;
+}
+.kitchenStoveIcon {
+  position: absolute;
+  top: calc(50% - 37px);
+  left: calc(50% - 19px);
+  width: 33px;
+  height: 38px;
+  cursor: pointer;
+}
+.bn {
+  position: absolute;
+  top: 240px;
+  left: 5px;
+  width: 148px;
+  height: 120px;
+}
+.groupFillIcon {
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 47px;
+  object-fit: cover;
+}
+.div2,
+.groupFillIcon,
+.khchHng {
+  position: absolute;
+}
+.div2 {
+  top: 49px;
+  left: -29px;
+  font-weight: 600;
+  display: inline-block;
+  width: 136px;
+  height: 35px;
+}
+.khchHng {
+  top: 382px;
+  left: 53px;
+  width: 44px;
+  height: 47px;
+  cursor: pointer;
+}
+.subtractIcon {
+  position: relative;
+  width: 33.8px;
+  height: 35.3px;
+}
+.timeAtackFill {
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 47px;
+}
+.div3,
+.lchS,
+.timeAtackFill {
+  position: absolute;
+}
+.div3 {
+  top: 47px;
+  left: -25px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 22px;
+}
+.lchS {
+  top: 499px;
+  left: 60px;
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+}
+.chartFillIcon {
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 39px;
+  object-fit: cover;
+}
+.boCo,
+.chartFillIcon,
+.div4 {
+  position: absolute;
+}
+.div4 {
+  top: 39px;
+  left: -18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 29px;
+}
+.boCo {
+  top: 616px;
+  left: 57px;
+  width: 40px;
+  height: 39px;
+  cursor: pointer;
+}
+.div5 {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+.div5,
+.div6,
+.parent {
+  position: absolute;
+}
+.div6 {
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.01em;
+  color: var(--color-gray-100);
+}
+.parent {
+  top: 914px;
+  left: 75px;
+  width: 60px;
+  height: 39px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.chevronDown2Icon {
+  position: absolute;
+  top: 919px;
+  left: 136px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.div7,
+.thanhTri {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 982px;
+  color: var(--color-darkgray-200);
+}
+.div7 {
+  top: 10px;
+  left: 137px;
+  font-weight: 600;
+  color: var(--color-darkorange-100);
+  display: inline-block;
+  width: 215px;
+  height: 27px;
+}
+.phBChild,
+.thanhMunuChild {
+  position: absolute;
+  top: 9px;
+  left: 658px;
+  width: 108px;
+  height: 29px;
+}
+.phBChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 267px;
+  height: 323px;
+}
+.phBItem {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+  width: 180px;
+  height: 179px;
+  object-fit: cover;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.p {
+  font-weight: 600;
+}
+.p1 {
+  font-size: var(--font-size-base);
+}
+.div8 {
+  position: absolute;
+  top: 203px;
+  left: 43px;
+  display: inline-block;
+  width: 179px;
+  height: 48px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 170px;
+  height: 41px;
+}
+.span {
+  font-weight: 600;
+}
+.span1 {
+  font-size: var(--font-size-xl);
+}
+.div9 {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  display: inline-block;
+  width: 147px;
+  height: 29px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 270px;
+  left: 52px;
+  width: 170px;
+  height: 41px;
+  font-size: var(--font-size-5xl);
+}
+.phB,
+.phBInner {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 267px;
+  height: 333px;
+}
+.phBInner {
+  top: 1px;
+  background-color: var(--color-white);
+  height: 320px;
+}
+.div11 {
+  position: absolute;
+  top: -2px;
+  left: 23px;
+  display: inline-block;
+  width: 147px;
+  height: 29px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 268px;
+  left: 47px;
+  width: 170px;
+  height: 41px;
+  font-size: var(--font-size-5xl);
+}
+.phB1,
+.rectangleDiv {
+  position: absolute;
+  top: 493px;
+  left: 3px;
+  border-radius: var(--br-xl);
+  width: 264px;
+  height: 321px;
+}
+.rectangleDiv {
+  top: 1px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 262px;
+  height: 319px;
+}
+.div12 {
+  position: absolute;
+  top: 203px;
+  left: 43px;
+  display: inline-block;
+  width: 169px;
+  height: 48px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 264px;
+  left: 42px;
+  width: 170px;
+  height: 41px;
+  font-size: var(--font-size-5xl);
+}
+.phB2,
+.phB3,
+.phBChild4 {
+  position: absolute;
+  top: 494px;
+  left: 334px;
+  border-radius: var(--br-xl);
+  width: 267px;
+  height: 320px;
+}
+.phB3,
+.phBChild4 {
+  top: 493px;
+  left: 662px;
+}
+.phBChild4 {
+  top: 1px;
+  left: 0;
+  background-color: var(--color-white);
+  height: 321px;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 266px;
+  left: 48px;
+  width: 170px;
+  height: 41px;
+  font-size: var(--font-size-5xl);
+}
+.phB4 {
+  position: absolute;
+  top: 88px;
+  left: 331px;
+  border-radius: var(--br-xl);
+  width: 267px;
+  height: 322px;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 265px;
+  left: 43px;
+  width: 170px;
+  height: 41px;
+  cursor: pointer;
+  font-size: var(--font-size-5xl);
+}
+.phB5,
+.sup {
+  position: absolute;
+}
+.phB5 {
+  top: 89px;
+  left: 662px;
+  border-radius: var(--br-xl);
+  width: 272px;
+  height: 321px;
+}
+.sup {
+  top: 0;
+  left: 0;
+  width: 926px;
+  height: 66px;
+  font-size: var(--font-size-xl);
+}
+.div20,
+.div21,
+.div22,
+.div23 {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  font-weight: 600;
+  display: inline-block;
+  width: 73px;
+  height: 32px;
+  cursor: pointer;
+}
+.div21,
+.div22,
+.div23 {
+  left: 509px;
+  width: 142px;
+  height: 21px;
+}
+.div22,
+.div23 {
+  top: 9px;
+  left: 658px;
+  width: 108px;
+  height: 29px;
+}
+.div23 {
+  top: 10px;
+  left: 359px;
+  width: 111px;
+  height: 21px;
+}
+.thanhMunu,
+.thanhMunuWrapper {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 926px;
+  height: 66px;
+}
+.thanhMunu {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.thanhMunuWrapper {
+  top: 118px;
+  left: 213px;
+}
+.group,
+.rectangleTextarea {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+.rectangleTextarea {
+  border: 0;
+  background-color: var(--color-whitesmoke-100);
+  outline: 0;
+  top: 533px;
+  border-radius: var(--br-mini);
+  width: 325px;
+  height: 130px;
+}
+.frameChild4 {
+  position: absolute;
+  top: 713px;
+  left: 73px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkorange-100);
+  width: 224px;
+  height: 52px;
+}
+.div24,
+.div25 {
+  position: absolute;
+  top: 721px;
+  left: 93px;
+  font-weight: 600;
+  display: inline-block;
+  width: 191px;
+  height: 44px;
+}
+.div25 {
+  top: 505px;
+  left: 17px;
+  color: var(--color-black);
+  width: 152px;
+  height: 36px;
+}
+.frameParent,
+.taskbarTrn {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.frameParent {
+  top: 120px;
+  left: 1160px;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  width: 352px;
+  height: 862px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.taskbarTrn {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 94px;
+}
+.span12 {
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+}
+.saigon {
+  margin: 0;
+}
+.saigonContainer {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+}
+.image3Icon,
+.tabTrnChild {
+  position: absolute;
+  top: 16px;
+  left: 635.2px;
+  width: 7.6px;
+  height: 5.4px;
+}
+.image3Icon {
+  top: 13px;
+  left: 198px;
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+}
+.iconWifi {
+  position: absolute;
+  height: 31.91%;
+  width: 2.45%;
+  top: 29.79%;
+  right: 3.17%;
+  bottom: 38.3%;
+  left: 94.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tabTrn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 94px;
+  font-size: var(--font-size-13xl);
+}
+.signOutCircleDuotoneLineIcon {
+  position: absolute;
+  top: 911px;
+  left: 20px;
+  width: 47px;
+  height: 38px;
+  cursor: pointer;
+}
+.thanhTriParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 982px;
+}
+.menu2 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

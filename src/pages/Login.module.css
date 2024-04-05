@@ -1,0 +1,213 @@
+.frameChild {
+  position: absolute;
+  top: -246px;
+  left: -203px;
+  border-radius: 30px;
+  background-color: var(--color-white);
+  width: 600px;
+  height: 480px;
+}
+.span {
+  font-weight: 500;
+}
+.span1 {
+  font-weight: 800;
+}
+.div,
+.frameItem {
+  position: absolute;
+  height: 42px;
+  cursor: pointer;
+}
+.div {
+  top: 132px;
+  left: -23px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 255px;
+}
+.frameItem {
+  top: 72px;
+  left: -12px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkslateblue);
+  width: 217px;
+}
+.iconEnvelopeClosed {
+  position: absolute;
+  height: 97.14%;
+  width: 19.55%;
+  top: -322.86%;
+  right: 110.45%;
+  bottom: 325.71%;
+  left: -30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.frameInner,
+.rectangleDiv {
+  position: absolute;
+  top: -15px;
+  left: -83px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgray-200);
+  width: 360px;
+  height: 60px;
+}
+.rectangleDiv {
+  top: -126px;
+}
+.b,
+.b1 {
+  position: absolute;
+  top: -191px;
+  left: -9px;
+  display: inline-block;
+  width: 217px;
+  height: 47px;
+}
+.b1 {
+  top: 78px;
+  left: 60px;
+  font-size: 25px;
+  color: var(--color-white);
+  width: 108px;
+  height: 30px;
+}
+.iconEnvelopeClosed1,
+.iconLockLocked {
+  position: absolute;
+  height: 117.14%;
+  width: 19.09%;
+  top: -17.14%;
+  right: 110.45%;
+  bottom: 0;
+  left: -29.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconEnvelopeClosed1 {
+  height: 97.14%;
+  width: 19.55%;
+  top: -322.86%;
+  bottom: 325.71%;
+  left: -30%;
+}
+.input {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: -114px;
+  left: 2px;
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  width: 255px;
+  height: 35px;
+}
+.input1,
+.taskbarTrn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.input1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  width: 220px;
+  height: 35px;
+}
+.taskbarTrn {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 94px;
+}
+.span2 {
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+}
+.p,
+.saigon {
+  margin: 0;
+}
+.p {
+  font-size: var(--font-size-base);
+}
+.saigonContainer {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+}
+.image3Icon,
+.tabTrnChild {
+  position: absolute;
+  top: 16px;
+  left: 635.2px;
+  width: 7.6px;
+  height: 5.4px;
+}
+.image3Icon {
+  top: 13px;
+  left: 181px;
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+}
+.iconWifi {
+  position: absolute;
+  height: 31.91%;
+  width: 2.45%;
+  top: 22.34%;
+  right: 2.98%;
+  bottom: 45.74%;
+  left: 94.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tabTrn {
+  position: absolute;
+  top: -546px;
+  left: -683px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  width: 1512px;
+  height: 94px;
+  color: var(--color-black);
+}
+.rectangleParent {
+  position: absolute;
+  top: 546px;
+  left: 683px;
+  width: 220px;
+  height: 35px;
+}
+.login {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}

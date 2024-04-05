@@ -1,0 +1,487 @@
+.taskbarTri {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 180px;
+  height: 982px;
+}
+.div {
+  position: absolute;
+  top: 87px;
+  left: 44px;
+  font-weight: 600;
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+}
+.chefsHatIcon {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 18px);
+  width: 37px;
+  height: 40px;
+  cursor: pointer;
+}
+.div1,
+.menu {
+  position: absolute;
+  top: 94px;
+  left: -1px;
+  width: 160px;
+  height: 144px;
+}
+.div1 {
+  top: 63px;
+  left: 33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 115px;
+  height: 57px;
+}
+.kitchenStoveIcon {
+  position: absolute;
+  top: calc(50% - 37px);
+  left: calc(50% - 19px);
+  width: 33px;
+  height: 38px;
+  cursor: pointer;
+}
+.bn {
+  position: absolute;
+  top: 240px;
+  left: 5px;
+  width: 148px;
+  height: 120px;
+}
+.groupFillIcon {
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 47px;
+  object-fit: cover;
+}
+.div2,
+.groupFillIcon,
+.khchHng {
+  position: absolute;
+}
+.div2 {
+  top: 49px;
+  left: -29px;
+  font-weight: 600;
+  display: inline-block;
+  width: 136px;
+  height: 35px;
+}
+.khchHng {
+  top: 382px;
+  left: 53px;
+  width: 44px;
+  height: 47px;
+  cursor: pointer;
+}
+.subtractIcon {
+  position: relative;
+  width: 33.8px;
+  height: 35.3px;
+}
+.timeAtackFill {
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 47px;
+}
+.div3,
+.lchS,
+.timeAtackFill {
+  position: absolute;
+}
+.div3 {
+  top: 47px;
+  left: -33px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 22px;
+}
+.lchS {
+  top: 494px;
+  left: 61px;
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+  color: var(--color-darkgray-400);
+}
+.chartFillIcon {
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 39px;
+  object-fit: cover;
+}
+.boCo,
+.chartFillIcon,
+.div4 {
+  position: absolute;
+}
+.div4 {
+  top: 39px;
+  left: -24px;
+  font-weight: 600;
+  display: inline-block;
+  width: 111px;
+  height: 29px;
+}
+.boCo {
+  top: 609px;
+  left: 60px;
+  width: 40px;
+  height: 39px;
+  color: var(--color-darkorange-100);
+}
+.signOutCircleDuotoneLineIcon {
+  position: absolute;
+  top: 915px;
+  left: 12px;
+  width: 47px;
+  height: 38px;
+  cursor: pointer;
+}
+.div5 {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+.div5,
+.div6,
+.parent {
+  position: absolute;
+}
+.div6 {
+  top: 22px;
+  left: 0;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.01em;
+  color: var(--color-gray-100);
+}
+.parent {
+  top: 920px;
+  left: 61px;
+  width: 63px;
+  height: 40px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.chevronDown2Icon {
+  position: absolute;
+  top: 919px;
+  left: 108px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.thanhTriChild {
+  position: absolute;
+  top: 592px;
+  left: 16px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange-200);
+  border: 3px solid var(--color-darkorange-100);
+  box-sizing: border-box;
+  width: 131px;
+  height: 112px;
+}
+.solidcommunicationuserIcon {
+  position: absolute;
+  top: 719px;
+  left: 56px;
+  width: 47px;
+  height: 57px;
+  cursor: pointer;
+}
+.div7 {
+  position: absolute;
+  top: 776px;
+  left: 17px;
+  font-weight: 600;
+  display: inline-block;
+  width: 139px;
+  height: 29px;
+}
+.taskbarTrn,
+.thanhTri {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.thanhTri {
+  width: 180px;
+  height: 982px;
+  color: var(--color-darkgray-200);
+}
+.taskbarTrn {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 94px;
+}
+.span {
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+}
+.p,
+.saigon {
+  margin: 0;
+}
+.p {
+  font-size: var(--font-size-base);
+}
+.saigonContainer {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+}
+.iconWifi,
+.tabTrnChild {
+  position: absolute;
+  top: 16px;
+  left: 635.2px;
+  width: 7.6px;
+  height: 5.4px;
+}
+.iconWifi {
+  height: 31.91%;
+  width: 2.45%;
+  top: 34.04%;
+  right: 2.98%;
+  bottom: 34.04%;
+  left: 94.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image3Icon {
+  position: absolute;
+  top: 16px;
+  left: 194px;
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+}
+.tabTrn,
+.x {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 94px;
+  font-size: var(--font-size-13xl);
+}
+.x {
+  top: 675px;
+  left: 1237px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 130px;
+  height: 28px;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 898px;
+  height: 825px;
+}
+.frameItem {
+  top: 55px;
+  left: 32px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  width: 773px;
+  height: 43px;
+}
+.div8,
+.div9 {
+  position: absolute;
+  display: inline-block;
+}
+.div8 {
+  top: 63px;
+  left: 55px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  width: 750px;
+  height: 34px;
+}
+.div9 {
+  top: 17px;
+  left: 32px;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  width: 353px;
+  height: 38px;
+}
+.expand02Icon {
+  position: absolute;
+  top: 12px;
+  left: 845px;
+  width: 17px;
+  height: 20px;
+  cursor: pointer;
+}
+.frameInner {
+  position: absolute;
+  top: 748px;
+  left: 661px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkorange-100);
+  border: 3px solid var(--color-darkorange-100);
+  box-sizing: border-box;
+  width: 144px;
+  height: 54px;
+}
+.div10 {
+  position: absolute;
+  top: 761px;
+  left: 699px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 87px;
+  height: 28px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-100);
+  width: 773px;
+  height: 58px;
+}
+.p1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.div11 {
+  position: absolute;
+  top: -14px;
+  left: 3px;
+  font-weight: 600;
+  display: inline-block;
+  width: 770px;
+  height: 52px;
+}
+.div14,
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 159px;
+  left: 32px;
+  width: 773px;
+  height: 58px;
+}
+.div14,
+.rectangleContainer,
+.rectangleGroup {
+  top: 278px;
+}
+.div14,
+.rectangleContainer {
+  top: 398px;
+}
+.div14 {
+  top: -1px;
+  left: 3px;
+  font-weight: 600;
+  display: inline-block;
+  width: 770px;
+  height: 52px;
+}
+.frameDiv,
+.rectangleParent1 {
+  position: absolute;
+  top: 513px;
+  left: 32px;
+  width: 773px;
+  height: 58px;
+}
+.rectangleParent1 {
+  top: 633px;
+}
+.div16,
+.div17,
+.div18,
+.div19,
+.div20 {
+  position: absolute;
+  top: 82px;
+  left: 34px;
+  font-weight: 600;
+  display: inline-block;
+  width: 770px;
+  height: 52px;
+}
+.div17,
+.div18,
+.div19,
+.div20 {
+  top: 201px;
+  left: 35px;
+}
+.div18,
+.div19,
+.div20 {
+  top: 318px;
+}
+.div19,
+.div20 {
+  top: 436px;
+}
+.div20 {
+  top: 564px;
+}
+.group,
+.vectorParent {
+  position: absolute;
+  left: 226px;
+}
+.vectorParent {
+  top: 157px;
+  width: 898px;
+  height: 825px;
+  font-size: var(--font-size-xl);
+}
+.group {
+  top: 116px;
+}
+.report02 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
