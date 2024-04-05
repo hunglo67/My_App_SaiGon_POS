@@ -6,8 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Login from "./pages/Login";
-import Menu from "./pages/Menu";
 import Table from "./pages/Table";
+import Menu from "./pages/Menu";
 import History1 from "./pages/History1";
 import Report from "./pages/Report";
 import Menu1 from "./pages/Menu1";
@@ -26,16 +26,16 @@ import Report2 from "./pages/Report2";
 import Report3 from "./pages/Report3";
 import Report4 from "./pages/Report4";
 import Menu8 from "./pages/Menu8";
+import Menu13 from "./pages/Menu13";
+import Menu14 from "./pages/Menu14";
+import Table2 from "./pages/Table2";
+import Employee1 from "./pages/Employee1";
 import Menu9 from "./pages/Menu9";
 import Menu10 from "./pages/Menu10";
 import Menu11 from "./pages/Menu11";
 import Menu12 from "./pages/Menu12";
 import Customer2 from "./pages/Customer2";
 import History3 from "./pages/History3";
-import Menu13 from "./pages/Menu13";
-import Menu14 from "./pages/Menu14";
-import Table2 from "./pages/Table2";
-import Employee1 from "./pages/Employee1";
 
 function App() {
   const action = useNavigationType();
@@ -57,11 +57,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/menu1":
+      case "/table1":
         title = "";
         metaDescription = "";
         break;
-      case "/table1":
+      case "/menu1":
         title = "";
         metaDescription = "";
         break;
@@ -137,6 +137,22 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/menu12":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/menu13":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/table11":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/employee1":
+        title = "";
+        metaDescription = "";
+        break;
       case "/menu22":
         title = "";
         metaDescription = "";
@@ -161,22 +177,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/menu12":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/menu13":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/table11":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/employee1":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -196,8 +196,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/menu1" element={<Menu />} />
       <Route path="/table1" element={<Table />} />
+      <Route path="/menu1" element={<Menu />} />
       <Route path="/history" element={<History1 />} />
       <Route path="/report" element={<Report />} />
       <Route path="/menu2" element={<Menu1 />} />
@@ -216,16 +216,16 @@ function App() {
       <Route path="/report02" element={<Report3 />} />
       <Route path="/report03" element={<Report4 />} />
       <Route path="/menu11" element={<Menu8 />} />
+      <Route path="/menu12" element={<Menu13 />} />
+      <Route path="/menu13" element={<Menu14 />} />
+      <Route path="/table11" element={<Table2 />} />
+      <Route path="/employee1" element={<Employee1 />} />
       <Route path="/menu22" element={<Menu9 />} />
       <Route path="/menu33" element={<Menu10 />} />
       <Route path="/menu44" element={<Menu11 />} />
       <Route path="/menu55" element={<Menu12 />} />
       <Route path="/customer11" element={<Customer2 />} />
       <Route path="/history11" element={<History3 />} />
-      <Route path="/menu12" element={<Menu13 />} />
-      <Route path="/menu13" element={<Menu14 />} />
-      <Route path="/table11" element={<Table2 />} />
-      <Route path="/employee1" element={<Employee1 />} />
     </Routes>
   );
 }

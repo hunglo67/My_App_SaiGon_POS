@@ -14,12 +14,12 @@ body {
   /* font sizes */
   --font-size-base: 16px;
   --font-size-13xl: 32px;
-  --font-size-xl: 20px;
   --font-size-mini: 15px;
   --font-size-lg: 18px;
   --font-size-5xl: 24px;
   --font-size-xs: 12px;
   --font-size-sm: 14px;
+  --font-size-xl: 20px;
   --font-size-5xs: 8px;
   --font-size-3xs: 10px;
   --font-size-3xl: 22px;
@@ -29,21 +29,21 @@ body {
   --color-whitesmoke-200: rgba(245, 245, 245, 0.55);
   --color-black: #000;
   --color-white: #fff;
-  --color-darkslategray: #3a3b4a;
-  --color-darkslateblue: #202465;
+  --color-limegreen: #26e322;
+  --color-darkorange-100: #fc8019;
+  --color-darkorange-200: rgba(252, 128, 25, 0.08);
+  --color-red-100: rgba(254, 6, 6, 0.55);
   --color-darkgray-100: #acacac;
   --color-darkgray-200: #9f9f9e;
   --color-darkgray-300: #9e9f9e;
   --color-darkgray-400: #9e9e9f;
   --color-darkgray-500: #999;
   --color-darkgray-600: rgba(159, 159, 158, 0.46);
-  --color-darkorange-100: #fc8019;
-  --color-darkorange-200: rgba(252, 128, 25, 0.08);
+  --color-steelblue: #4881c4;
   --color-gainsboro-100: #d9d9d9;
   --color-gray-100: #757575;
-  --color-limegreen: #26e322;
-  --color-red-100: rgba(254, 6, 6, 0.55);
-  --color-steelblue: #4881c4;
+  --color-darkslategray: #3a3b4a;
+  --color-darkslateblue: #202465;
   --color-lavender-100: #f3efff;
   --color-dimgray: #4f4f4f;
 
