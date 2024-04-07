@@ -380,7 +380,7 @@
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   width: 434px;
-  height: 286px;
+  height: 326px;
 }
 .frameInner {
   border: 3px solid var(--color-darkgray-400);
@@ -401,7 +401,6 @@
   width: 433px;
   height: 69px;
 }
-.rectangleParent,
 .xCircleContainedIcon {
   position: absolute;
   top: 15px;
@@ -409,11 +408,41 @@
   width: 24px;
   height: 24px;
 }
+.b,
+.frameChild1 {
+  position: absolute;
+}
+.frameChild1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkorange-100);
+  width: 169px;
+  height: 63px;
+}
+.b {
+  top: 15px;
+  left: 21px;
+  display: inline-block;
+  width: 127px;
+  height: 48px;
+  cursor: pointer;
+}
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 248px;
+  left: 154px;
+  width: 169px;
+  height: 63px;
+}
 .rectangleParent {
   top: 0;
   left: 0;
   width: 457px;
   height: 341px;
+  text-align: center;
+  color: var(--color-white);
 }
 .id1 {
   font-size: var(--font-size-lg);
@@ -437,12 +466,12 @@
   font-weight: 500;
   width: 73px;
 }
-.b,
+.b1,
 .div11,
 .frameInput {
   position: absolute;
 }
-.b {
+.b1 {
   top: 20px;
   left: 152px;
   display: inline-block;

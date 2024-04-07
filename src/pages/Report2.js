@@ -153,22 +153,22 @@ const Report2 = () => {
           <div className={styles.frameChild7} />
           <div className={styles.frameChild8} />
           <div className={styles.frameChild9} />
-          <div className={styles.div10}> Кол-во</div>
+          <div className={styles.div10}>Кол-во</div>
           <div className={styles.text}>{`        `}</div>
           <div className={styles.frameChild10} />
           <div className={styles.div11}>Терминал</div>
           <div className={styles.div12}>Сумма</div>
           <div className={styles.div13}>Чеки продаж</div>
-          <div className={styles.div14}> 35200.00</div>
-          <div className={styles.div15}> 35200.00</div>
-          <div className={styles.div16}> 177700.00</div>
-          <div className={styles.div17}> Наличные</div>
+          <div className={styles.div14}>35200.00</div>
+          <div className={styles.div15}>35200.00</div>
+          <div className={styles.div16}>177700.00</div>
+          <div className={styles.div17}>Наличные</div>
           <div className={styles.text1}>{`  `}</div>
           <div className={styles.text2}>{`   `}</div>
           <div className={styles.text3}>{`        `}</div>
           <div className={styles.div18}>Чеки возвратов</div>
           <div className={styles.div19}>Наличность:</div>
-          <div className={styles.div20}>{`      212900.00   `}</div>
+          <div className={styles.div20}>{`212900.00   `}</div>
           <div className={styles.text4}>{`       `}</div>
           <img className={styles.frameChild11} alt="" />
         </div>
@@ -176,7 +176,7 @@ const Report2 = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.frameChild12} />
         <div className={styles.div21}>Экспорт</div>
-        <div className={styles.div22}> Открыта 15.03.2024</div>
+        <div className={styles.div22}>Открыта 15.03.2024</div>
         <img
           className={styles.expand02Icon}
           alt=""
@@ -184,21 +184,23 @@ const Report2 = () => {
           onClick={onExpand02IconClick}
         />
         <div className={styles.x1} onClick={onXTextClick}>
-          {" "}
           X-отчет
         </div>
         <div className={styles.div23}>35700.00</div>
         <div className={styles.div24}>177700.00</div>
         <div className={styles.div25}>213400.00</div>
-        <div className={styles.div26}> 210</div>
-        <div className={styles.div27}> 1</div>
+        <div className={styles.div26}>1</div>
+        <div className={styles.div27}>
+          <span className={styles.span1}>{`      `}</span>
+          <span className={styles.span2}>209</span>
+        </div>
         <div className={styles.div28}>
           <span className={styles.span1}>{`      `}</span>
           <span className={styles.span2}>209</span>
         </div>
-        <div className={styles.div29}> 500.00</div>
-        <div className={styles.div30}> 500.00.00</div>
-        <div className={styles.div31}> 0.00</div>
+        <div className={styles.div29}>500.00</div>
+        <div className={styles.div30}>500.00.00</div>
+        <div className={styles.div31}>0.00</div>
       </div>
     </div>
   );

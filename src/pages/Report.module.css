@@ -451,8 +451,6 @@
   left: 102.9px;
   height: 132.2px;
 }
-.frameChild1,
-.frameChild2,
 .frameInner,
 .frameItem,
 .rectangleIcon {
@@ -466,23 +464,10 @@
   background-color: var(--color-lavender-100);
   height: 163.9px;
 }
-.frameChild1,
-.frameChild2,
 .rectangleIcon {
   top: 122px;
   left: 219px;
   height: 168.6px;
-}
-.frameChild1,
-.frameChild2 {
-  top: 188.1px;
-  left: 603px;
-  height: 103.4px;
-}
-.frameChild2 {
-  top: 135px;
-  left: 658.6px;
-  height: 156.4px;
 }
 .div21,
 .group,

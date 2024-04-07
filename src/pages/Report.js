@@ -157,8 +157,6 @@ const Report = () => {
             alt=""
             src="/rectangle-25.svg"
           />
-          <img className={styles.frameChild1} alt="" />
-          <img className={styles.frameChild2} alt="" />
         </div>
         <div className={styles.vectorParent}>
           <img className={styles.groupChild} alt="" src="/rectangle-29.svg" />

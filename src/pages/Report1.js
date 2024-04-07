@@ -161,7 +161,7 @@ const Report1 = () => {
           <div className={styles.frameChild7} />
           <div className={styles.frameChild8} />
           <div className={styles.frameChild9} />
-          <div className={styles.div10}> Кол-во</div>
+          <div className={styles.div10}>Кол-во</div>
           <div className={styles.text}>{`        `}</div>
           <div className={styles.frameChild10} />
           <div className={styles.div11}>Терминал</div>
@@ -171,23 +171,22 @@ const Report1 = () => {
           <div className={styles.div14}> Наличные</div>
           <div className={styles.text2}>{`  `}</div>
           <div className={styles.text3}>{`   `}</div>
-          <div className={styles.div15}> 0</div>
+          <div className={styles.div15}>0</div>
           <div className={styles.div16}>Чеки возвратов</div>
           <div className={styles.div17}>Наличность:</div>
           <div className={styles.text4}>{`         `}</div>
           <div className={styles.text5}>{`   `}</div>
-          <div className={styles.div18}> 0.00</div>
-          <div className={styles.div19}> 0.00</div>
-          <div className={styles.div20}> 0.00</div>
+          <div className={styles.div18}>0.00</div>
+          <div className={styles.div19}>0.00</div>
+          <div className={styles.div20}>0.00</div>
           <img className={styles.frameChild11} alt="" />
         </div>
         <b className={styles.b1}>Смена № 108</b>
         <div className={styles.rectangleDiv} onClick={onRectangle1Click} />
         <div className={styles.frameChild12} />
         <div className={styles.div21}>Экспорт</div>
-        <div className={styles.div22}> Открыта 16.03.2024</div>
+        <div className={styles.div22}>Открыта 16.03.2024</div>
         <div className={styles.x1} onClick={onXTextClick}>
-          {" "}
           X-отчет
         </div>
         <img
@@ -196,8 +195,8 @@ const Report1 = () => {
           src="/expand02.svg"
           onClick={onExpand02IconClick}
         />
-        <div className={styles.div23}> 208</div>
-        <b className={styles.b2}> 208</b>
+        <b className={styles.b2}>208</b>
+        <div className={styles.div23}>208</div>
         <b className={styles.b3}>36700.00</b>
         <div className={styles.div24}>36700.00</div>
         <b className={styles.b4}>36700.00</b>

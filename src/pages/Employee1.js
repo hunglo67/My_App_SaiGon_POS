@@ -131,10 +131,9 @@ const Employee1 = () => {
         <div className={styles.thanhMunuChild} />
         <div className={styles.sup}>
           <div className={styles.supChild} />
-          <div className={styles.id}>
-            {" "}
-            ID ФИО Номер_телефона Почта Пароль Роль
-          </div>
+          <div
+            className={styles.id}
+          >{`ID                      Ф.И.О                          Номер телефон                                   Почта                                             Пароль                 Роль   `}</div>
         </div>
         <div className={styles.thanhMunuItem} />
         <div
@@ -142,85 +141,91 @@ const Employee1 = () => {
         >{`02                    Ло В.Х.                      +79252321345                    Hunglo6720@yandex.ru                         SG01112                   Продавец       `}</div>
         <div
           className={styles.hunglo6720gmailcomSg01112}
-        >{`01                    Ло В.Х.                      +79017203519                    Hunglo6720@gmail.com                        SG01112                   Менеджер       `}</div>
-      </div>
-      <div className={styles.chevronDown2Parent}>
-        <div className={styles.chevronDown2} />
-        <div className={styles.frameChild} />
-        <div className={styles.rectangleParent}>
-          <div className={styles.frameItem} />
-          <FormControl
-            className={styles.group}
-            variant="filled"
-            sx={{
-              borderRadius: "0px 0px 0px 0px",
-              width: "240px",
-              height: "60px",
-              m: 0,
-              p: 0,
-              "& .MuiInputBase-root": {
-                m: 0,
-                p: 0,
-                minHeight: "60px",
-                justifyContent: "center",
-                display: "inline-flex",
-              },
-              "& .MuiInputLabel-root": {
-                m: 0,
-                p: 0,
-                minHeight: "60px",
-                display: "inline-flex",
-              },
-              "& .MuiMenuItem-root": {
-                m: 0,
-                p: 0,
+        >{`01                    Ло В.Х.                      +79017203519                     Hunglo6720@gmail.com                        SG01112                   Менеджер       `}</div>
+        <div className={styles.chevronDown2Parent}>
+          <div className={styles.chevronDown2} />
+          <div className={styles.frameChild} />
+          <div className={styles.rectangleParent}>
+            <div className={styles.frameItem} />
+            <FormControl
+              className={styles.group}
+              variant="filled"
+              sx={{
+                borderRadius: "0px 0px 0px 0px",
+                width: "240px",
                 height: "60px",
-                display: "inline-flex",
-              },
-              "& .MuiSelect-select": {
                 m: 0,
                 p: 0,
-                height: "60px",
-                alignItems: "center",
-                display: "inline-flex",
-              },
-              "& .MuiInput-input": { m: 0, p: 0 },
-              "& .MuiInputBase-input": { textAlign: "left", p: "0 !important" },
-            }}
+                "& .MuiInputBase-root": {
+                  m: 0,
+                  p: 0,
+                  minHeight: "60px",
+                  justifyContent: "center",
+                  display: "inline-flex",
+                },
+                "& .MuiInputLabel-root": {
+                  m: 0,
+                  p: 0,
+                  minHeight: "60px",
+                  display: "inline-flex",
+                },
+                "& .MuiMenuItem-root": {
+                  m: 0,
+                  p: 0,
+                  height: "60px",
+                  display: "inline-flex",
+                },
+                "& .MuiSelect-select": {
+                  m: 0,
+                  p: 0,
+                  height: "60px",
+                  alignItems: "center",
+                  display: "inline-flex",
+                },
+                "& .MuiInput-input": { m: 0, p: 0 },
+                "& .MuiInputBase-input": {
+                  textAlign: "left",
+                  p: "0 !important",
+                },
+              }}
+            >
+              <InputLabel color="primary" />
+              <Select color="primary" disableUnderline displayEmpty>
+                <MenuItem value="Кассир">Кассир</MenuItem>
+                <MenuItem value="Продавец">Продавец</MenuItem>
+                <MenuItem value="Менеджер">Менеджер</MenuItem>
+              </Select>
+              <FormHelperText />
+            </FormControl>
+            <div className={styles.frameInner} />
+            <b className={styles.b}> +</b>
+            <div className={styles.id1}>ID</div>
+          </div>
+          <div className={styles.rectangleDiv} />
+          <div className={styles.div8}>ФИО</div>
+          <div className={styles.div9}>Номер телефона</div>
+          <img
+            className={styles.xCircleContainedIcon}
+            alt=""
+            src="/xcirclecontained.svg"
+            onClick={onXCircleContainedIconClick}
+          />
+          <div className={styles.div10}>Роль</div>
+          <div className={styles.div11}>Пароль</div>
+          <div className={styles.div12}>Почта</div>
+          <input className={styles.rectangleInput} type="text" />
+          <input className={styles.frameChild1} type="text" />
+          <input className={styles.frameChild2} type="text" />
+          <input className={styles.frameChild3} type="text" />
+          <input className={styles.frameChild4} type="text" />
+          <b className={styles.b1}>Создать нового пользователя</b>
+          <div
+            className={styles.rectangleGroup}
+            onClick={onFrameContainer1Click}
           >
-            <InputLabel color="primary" />
-            <Select color="primary" disableUnderline displayEmpty>
-              <MenuItem value="Кассир">Кассир</MenuItem>
-              <MenuItem value="Продавец">Продавец</MenuItem>
-              <MenuItem value="Менеджер">Менеджер</MenuItem>
-            </Select>
-            <FormHelperText />
-          </FormControl>
-          <div className={styles.frameInner} />
-          <b className={styles.b}> +</b>
-        </div>
-        <div className={styles.rectangleDiv} />
-        <div className={styles.div8}>ФИО</div>
-        <div className={styles.div9}>Номер телефона</div>
-        <img
-          className={styles.xCircleContainedIcon}
-          alt=""
-          src="/xcirclecontained.svg"
-          onClick={onXCircleContainedIconClick}
-        />
-        <div className={styles.div10}>Роль</div>
-        <div className={styles.div11}>Пароль</div>
-        <div className={styles.div12}>Почта</div>
-        <input className={styles.rectangleInput} type="text" />
-        <div className={styles.id1}> ID</div>
-        <input className={styles.frameChild1} type="text" />
-        <input className={styles.frameChild2} type="text" />
-        <input className={styles.frameChild3} type="text" />
-        <input className={styles.frameChild4} type="text" />
-        <b className={styles.b1}>Создать нового пользователя</b>
-        <div className={styles.rectangleGroup} onClick={onFrameContainer1Click}>
-          <div className={styles.frameChild5} />
-          <b className={styles.b2}> Сохранить</b>
+            <div className={styles.frameChild5} />
+            <b className={styles.b2}> Сохранить</b>
+          </div>
         </div>
       </div>
       <div className={styles.div13}>Список пользователей</div>

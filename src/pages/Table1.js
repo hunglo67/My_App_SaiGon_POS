@@ -110,15 +110,15 @@ const Table1 = () => {
         <div className={styles.groupChild} />
         <div className={styles.groupItem} />
         <div className={styles.groupInner} />
-        <div className={styles.div8}> 1 Фо-бо 580</div>
-        <div className={styles.div9}> 1 Суп фо га 580</div>
+        <div className={styles.div8}> 1 Фо-бо                                                                 580</div>
+        <div className={styles.div9}> 1 Суп фо га                                                           580</div>
         <div className={styles.rectangleDiv} />
         <div className={styles.groupChild1} />
-        <div className={styles.div10}> 2 Ком бо лук лак 630</div>
-        <div className={styles.div11}> 1 Свежевый сок манго 399</div>
-        <div className={styles.div12}> 1 Свежевый сок ананаса 399</div>
-        <div className={styles.div13}>Промежуточная сумма 3218</div>
-        <b className={styles.b}>Заказ #091</b>
+        <div className={styles.div10}> 2 Ком бо лук лак                                                 630</div>
+        <div className={styles.div11}> 1 Свежевый сок манго                                      399</div>
+        <div className={styles.div12}> 1 Свежевый сок ананаса                                  399</div>
+        <div className={styles.div13}>Промежуточная сумма                                          3218</div>
+        <b className={styles.b}>Заказ #101</b>
         <div className={styles.div14}>СТ1</div>
         <div
           className={styles.div15}

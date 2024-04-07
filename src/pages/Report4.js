@@ -126,7 +126,7 @@ const Report4 = () => {
         <div className={styles.frameChild2} />
         <div className={styles.frameChild3} />
         <div className={styles.frameChild4} />
-        <b className={styles.b}>Месяц Доход(Рублей) Процент(%)</b>
+        <b className={styles.b}>Месяц           Доход(Рублей)               Процент(%)</b>
         <div className={styles.overview}>
           <div className={styles.group}>
             <div className={styles.div9}>Обзор</div>
@@ -161,18 +161,18 @@ const Report4 = () => {
             </div>
           </div>
         </div>
-        <div className={styles.div23}>Январь 4345000.00 19.14</div>
-        <div className={styles.div24}>Февраль 5190000.00 22.86</div>
-        <div className={styles.div25}>Апрель 6909000.00 30.43</div>
-        <div className={styles.naNa}>Май N/A N/A</div>
-        <div className={styles.naNa1}>Июнь N/A N/A</div>
-        <div className={styles.naNa2}>Июль N/A N/A</div>
-        <div className={styles.naNa3}>Август N/A N/A</div>
-        <div className={styles.naNa4}>Сентябрь N/A N/A</div>
-        <div className={styles.naNa5}>Октябрь N/A N/A</div>
-        <div className={styles.naNa6}>Ноябрь N/A N/A</div>
-        <div className={styles.naNa7}>Декабрь N/A N/A</div>
-        <div className={styles.div26}>Март 6255850.00 27.55</div>
+        <div className={styles.div23}>Январь         4345000.00                    19.14</div>
+        <div className={styles.div24}>Февраль       5190000.00                    22.86</div>
+        <div className={styles.div25}>Апрель         6909000.00                     0.43</div>
+        <div className={styles.naNa}>Май                       N/A                             N/A</div>
+        <div className={styles.naNa1}>Июнь                     N/A                             N/A</div>
+        <div className={styles.naNa2}>Июль                     N/A                             N/A</div>
+        <div className={styles.naNa3}>Август                   N/A                             N/A</div>
+        <div className={styles.naNa4}>Сентябрь              N/A                             N/A</div>
+        <div className={styles.naNa5}>Октябрь                N/A                             N/A</div>
+        <div className={styles.naNa6}>Ноябрь                  N/A                             N/A</div>
+        <div className={styles.naNa7}>Декабрь                N/A                             N/A</div>
+        <div className={styles.div26}>Март             6255850.00                     27.55</div>
         <div className={styles.min4345000}>Min: 4,345,000</div>
         <div className={styles.max6909000}>Max: 6,909,000</div>
         <div className={styles.div27}>Месячный доход</div>

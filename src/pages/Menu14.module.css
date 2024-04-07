@@ -358,15 +358,14 @@
   width: 267px;
   height: 322px;
 }
-.rectangleContainer {
-  position: absolute;
+.frameDiv {
   top: 265px;
   left: 43px;
   width: 170px;
   height: 41px;
-  font-size: var(--font-size-5xl);
 }
-.div16,
+.div15,
+.frameDiv,
 .phB4 {
   position: absolute;
 }
@@ -377,7 +376,7 @@
   width: 272px;
   height: 321px;
 }
-.div16 {
+.div15 {
   top: 10px;
   left: 13px;
   font-size: var(--font-size-5xl);
@@ -395,14 +394,14 @@
   height: 24px;
   overflow: hidden;
 }
-.frameDiv {
+.frameChild1 {
   position: absolute;
   top: 90px;
   left: 147px;
   width: 240px;
   height: 60px;
 }
-.frameChild1,
+.frameChild2,
 .rectangleInput {
   outline: 0;
   background-color: var(--color-white);
@@ -416,7 +415,7 @@
   width: 600px;
   height: 662px;
 }
-.frameChild1 {
+.frameChild2 {
   border: 3px solid var(--color-darkgray-400);
   top: 493px;
   left: 216px;
@@ -455,20 +454,20 @@
   bottom: 18.97%;
   left: 79.17%;
 }
-.frameChild2,
-.rectangleParent1 {
+.frameChild3,
+.rectangleContainer {
   position: absolute;
   top: 0;
   left: 0;
   width: 600px;
   height: 662px;
 }
-.frameChild2 {
+.frameChild3 {
   border-radius: var(--br-xl) var(--br-xl) 0 0;
   background-color: var(--color-gainsboro-100);
   height: 69px;
 }
-.div17 {
+.div16 {
   position: absolute;
   top: 258px;
   left: 46px;
@@ -485,9 +484,9 @@
   height: 24px;
   cursor: pointer;
 }
+.div17,
 .div18,
-.div19,
-.div20 {
+.div19 {
   position: absolute;
   top: 513px;
   left: 59px;
@@ -496,13 +495,13 @@
   width: 128px;
   height: 19px;
 }
-.div19,
-.div20 {
+.div18,
+.div19 {
   top: 427px;
   left: 93px;
   width: 94px;
 }
-.div20 {
+.div19 {
   top: 334px;
   left: 130px;
   width: 87px;
@@ -520,22 +519,21 @@
   width: 240px;
   height: 60px;
 }
-.div21,
+.div20,
 .id {
   position: absolute;
-  top: 81px;
-  left: 93px;
+  top: 101px;
+  left: 84px;
   font-weight: 500;
-  white-space: pre-wrap;
   display: inline-block;
   width: 133px;
   height: 44px;
 }
 .id {
-  top: 176px;
-  left: 115px;
+  top: 189px;
+  left: 162px;
 }
-.frameChild3 {
+.frameChild4 {
   border: 3px solid var(--color-darkgray-400);
   outline: 0;
   background-color: var(--color-white);
@@ -546,12 +544,12 @@
   height: 60px;
 }
 .container,
-.frameChild3,
-.frameChild4 {
+.frameChild4,
+.frameChild5 {
   position: absolute;
   left: 217px;
 }
-.frameChild4 {
+.frameChild5 {
   border: 3px solid var(--color-darkgray-400);
   outline: 0;
   background-color: var(--color-white);
@@ -564,7 +562,7 @@
 .container {
   top: 84px;
 }
-.frameChild5 {
+.frameChild6 {
   border: 3px solid var(--color-darkgray-400);
   outline: 0;
   background-color: var(--color-white);
@@ -576,8 +574,8 @@
   height: 60px;
 }
 .b,
-.frameChild5,
-.frameChild6 {
+.frameChild6,
+.frameChild7 {
   position: absolute;
 }
 .b {
@@ -589,7 +587,7 @@
   width: 331px;
   height: 43px;
 }
-.frameChild6 {
+.frameChild7 {
   top: 0;
   left: 0;
   border-radius: var(--br-mini);
@@ -600,13 +598,12 @@
 .b1 {
   position: absolute;
   top: 17px;
-  left: -10px;
+  left: 30px;
   display: inline-block;
-  white-space: pre-wrap;
   width: 179px;
   height: 46px;
 }
-.rectangleParent2 {
+.rectangleParent1 {
   position: absolute;
   top: 574px;
   left: 248px;
@@ -633,13 +630,13 @@
   height: 66px;
   font-size: var(--font-size-xl);
 }
-.div22,
-.frameChild7,
+.div21,
+.frameChild8,
 .sup {
   position: absolute;
   top: 0;
 }
-.div22 {
+.div21 {
   left: 0;
   font-weight: 600;
   display: inline-block;
@@ -647,16 +644,16 @@
   height: 27px;
   cursor: pointer;
 }
-.frameChild7 {
+.frameChild8 {
   left: -1px;
   background-color: var(--color-gainsboro-100);
   width: 205px;
   height: 33px;
   display: none;
 }
+.div22,
 .div23,
 .div24,
-.div25,
 .parent1 {
   position: absolute;
   top: 10px;
@@ -665,23 +662,23 @@
   height: 27px;
   cursor: pointer;
 }
+.div22,
 .div23,
-.div24,
-.div25 {
+.div24 {
   left: 359px;
   font-weight: 600;
   display: inline-block;
   width: 111px;
   height: 21px;
 }
-.div24,
-.div25 {
+.div23,
+.div24 {
   top: 9px;
   left: 658px;
   width: 108px;
   height: 29px;
 }
-.div25 {
+.div24 {
   top: 10px;
   left: 509px;
   width: 142px;
@@ -711,7 +708,6 @@
   height: 24px;
   overflow: hidden;
 }
-.frameChild8,
 .frameChild9 {
   position: absolute;
   top: 90px;
@@ -719,52 +715,34 @@
   width: 240px;
   height: 60px;
 }
-.frameChild9 {
-  border: 0;
-  outline: 0;
-  background-color: var(--color-white);
-  top: 0;
-  left: 0;
-  border-radius: var(--br-xl);
-  width: 568px;
-  height: 415px;
-}
-.frameChild10 {
-  position: absolute;
-  top: 86px;
-  left: 469px;
-  border-radius: var(--br-mini);
-  width: 55px;
-  height: 54px;
-}
-.group1 {
-  text-decoration: none;
-  position: absolute;
-  height: 4%;
-  width: 4.51%;
-  top: 77.04%;
-  right: 16.32%;
-  bottom: 18.96%;
-  left: 79.17%;
-}
+.frameChild10,
 .frameChild11 {
   position: absolute;
   top: 0;
   left: 0;
+  width: 568px;
+}
+.frameChild10 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  border-radius: var(--br-xl);
+  height: 415px;
+}
+.frameChild11 {
   border-radius: var(--br-xl) var(--br-xl) 0 0;
   background-color: var(--color-gainsboro-100);
-  width: 568px;
   height: 69px;
 }
-.div26,
-.rectangleParent3 {
+.div25,
+.rectangleParent2 {
   position: absolute;
   top: 0;
   left: 21px;
   width: 568px;
   height: 415px;
 }
-.div26 {
+.div25 {
   top: 210px;
   left: 38px;
   font-weight: 500;
@@ -783,9 +761,8 @@
 .id1 {
   position: absolute;
   top: 114px;
-  left: 110px;
+  left: 147px;
   font-weight: 500;
-  white-space: pre-wrap;
   display: inline-block;
   width: 133px;
   height: 44px;
@@ -807,23 +784,31 @@
   top: 191px;
 }
 .b2,
-.rectangleParent4 {
+.b3 {
   position: absolute;
-  font-size: var(--font-size-xl);
+  display: inline-block;
 }
 .b2 {
   top: 14px;
   left: 189px;
-  display: inline-block;
+  font-size: var(--font-size-xl);
   width: 331px;
   height: 43px;
 }
-.rectangleParent4 {
+.b3 {
+  top: 17px;
+  left: 27px;
+  width: 179px;
+  height: 46px;
+}
+.rectangleParent3 {
+  position: absolute;
   top: 306px;
   left: 243px;
   width: 169px;
   height: 63px;
   cursor: pointer;
+  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 .chevronDown2Group {
@@ -846,7 +831,7 @@
   width: 1512px;
   height: 94px;
 }
-.span6 {
+.span4 {
   font-size: var(--font-size-base);
   white-space: pre-wrap;
 }

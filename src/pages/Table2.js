@@ -37,6 +37,10 @@ const Table2 = () => {
     navigate("/employee");
   }, [navigate]);
 
+  const onTextClick = useCallback(() => {
+    navigate("/menu11");
+  }, [navigate]);
+
   return (
     <div className={styles.table11}>
       <div className={styles.thanhTri}>
@@ -145,13 +149,19 @@ const Table2 = () => {
             alt=""
             src="/xcirclecontained2.svg"
           />
+          <div className={styles.rectangleGroup}>
+            <div className={styles.frameChild1} />
+            <b className={styles.b} onClick={onTextClick}>
+              Сохранить
+            </b>
+          </div>
         </div>
         <div className={styles.id}>
           <b>{` `}</b>
           <span className={styles.id1}>ID</span>
         </div>
         <div className={styles.div11}>Номер</div>
-        <b className={styles.b}> Новая стола</b>
+        <b className={styles.b1}> Новая стола</b>
         <input className={styles.frameInput} type="text" />
       </div>
     </div>

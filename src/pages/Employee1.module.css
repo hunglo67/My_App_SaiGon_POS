@@ -284,11 +284,15 @@
   font-size: var(--font-size-13xl);
 }
 .thanhMunuChild {
-  position: absolute;
   top: 9px;
   left: 658px;
   width: 108px;
   height: 29px;
+}
+.id,
+.supChild,
+.thanhMunuChild {
+  position: absolute;
 }
 .supChild {
   top: 9px;
@@ -298,29 +302,24 @@
   width: 1199px;
   height: 57px;
 }
-.id,
-.sup,
-.supChild {
-  position: absolute;
-}
 .id {
-  top: 22px;
-  left: 30px;
+  top: 21px;
+  left: 75px;
   font-weight: 600;
   white-space: pre-wrap;
   display: inline-block;
-  width: 1149px;
-  height: 37px;
+  width: 1125px;
+  height: 45px;
 }
-.sup {
+.sup,
+.thanhMunuItem {
+  position: absolute;
   top: 0;
   left: 0;
   width: 1215px;
   height: 66px;
-  font-size: var(--font-size-lg);
 }
 .thanhMunuItem {
-  position: absolute;
   top: 128px;
   left: 16px;
   border-radius: var(--br-mini);
@@ -341,16 +340,6 @@
 }
 .hunglo6720gmailcomSg01112 {
   top: 140px;
-}
-.thanhMunu {
-  position: absolute;
-  top: 167px;
-  left: 245px;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  width: 1224px;
-  height: 785px;
-  font-size: var(--font-size-base);
 }
 .chevronDown2 {
   position: absolute;
@@ -376,30 +365,39 @@
   width: 600px;
   height: 662px;
 }
-.group {
-  top: 493px;
-  left: 216px;
-}
-.b,
 .frameInner,
 .group {
   position: absolute;
+  top: 493px;
+  left: 216px;
 }
 .frameInner {
-  top: 493px;
   left: 472px;
   border-radius: var(--br-mini);
   background-color: var(--color-darkorange-100);
   width: 55px;
   height: 54px;
 }
-.b {
-  top: 505px;
-  left: 478px;
+.b,
+.id1 {
+  position: absolute;
   display: inline-block;
+}
+.b {
+  top: 504px;
+  left: 485px;
   white-space: pre-wrap;
   width: 49px;
   height: 31px;
+}
+.id1 {
+  top: 98px;
+  left: 171px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-black);
+  width: 133px;
+  height: 45px;
 }
 .rectangleDiv,
 .rectangleParent {
@@ -410,7 +408,6 @@
 }
 .rectangleParent {
   height: 662px;
-  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 .rectangleDiv {
@@ -421,19 +418,17 @@
 .div8,
 .div9 {
   position: absolute;
-  font-weight: 500;
-  display: inline-block;
-  height: 31px;
-}
-.div8 {
   top: 182px;
   left: 141px;
-  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
   width: 52px;
+  height: 31px;
 }
 .div9 {
   top: 259px;
   left: 37px;
+  font-size: var(--font-size-lg);
   width: 168px;
 }
 .xCircleContainedIcon {
@@ -450,6 +445,7 @@
   position: absolute;
   top: 517px;
   left: 150px;
+  font-size: var(--font-size-lg);
   font-weight: 500;
   display: inline-block;
   width: 128px;
@@ -467,6 +463,10 @@
   width: 87px;
   height: 31px;
 }
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
 .rectangleInput {
   border: 3px solid var(--color-darkgray-400);
   outline: 0;
@@ -479,30 +479,11 @@
   width: 240px;
   height: 60px;
 }
-.id1 {
-  position: absolute;
-  top: 99px;
-  left: 115px;
-  font-weight: 500;
-  white-space: pre-wrap;
-  display: inline-block;
-  width: 133px;
-  height: 45px;
-}
 .frameChild1,
 .frameChild2,
 .frameChild3,
 .frameChild4 {
-  border: 3px solid var(--color-darkgray-400);
-  outline: 0;
-  background-color: var(--color-white);
-  position: absolute;
   top: 159px;
-  left: 217px;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  width: 240px;
-  height: 60px;
 }
 .frameChild2,
 .frameChild3,
@@ -520,7 +501,6 @@
   position: absolute;
   top: 14px;
   left: 162px;
-  font-size: var(--font-size-xl);
   display: inline-block;
   width: 331px;
   height: 43px;
@@ -537,7 +517,7 @@
 .b2 {
   position: absolute;
   top: 17px;
-  left: -10px;
+  left: 31px;
   display: inline-block;
   white-space: pre-wrap;
   width: 179px;
@@ -550,19 +530,28 @@
   width: 169px;
   height: 63px;
   cursor: pointer;
-  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 .chevronDown2Parent {
   position: absolute;
-  top: 93px;
-  left: 650px;
+  top: -26px;
+  left: 574px;
   border-radius: var(--br-xl);
   border: 1px solid var(--color-darkgray-300);
   box-sizing: border-box;
   width: 602px;
   height: 664px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
+}
+.thanhMunu {
+  position: absolute;
+  top: 167px;
+  left: 245px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 1224px;
+  height: 785px;
+  font-size: var(--font-size-base);
 }
 .div13 {
   position: absolute;

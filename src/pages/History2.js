@@ -127,54 +127,54 @@ const History2 = () => {
       <div className={styles.history1Child} />
       <div className={styles.id}>
         {" "}
-        ID_Заказ Время Стол Итоговая сумма Способ оплаты
+        ID_Заказ                       Время                           Стол                                Итоговая сумма                   Способ оплаты
       </div>
       <div className={styles.rectangleParent}>
         <div className={styles.groupChild} />
         <div className={styles.div8}>
-          <span className={styles.span1}> 101</span>
-          <span className={styles.span2}> 16:30 1 3218 Терминал</span>
+        <span className={styles.span1}>    101</span>
+          <span className={styles.span2}>                               16:30                              СТ1                                             3218                                          Терминал</span>
         </div>
         <div className={styles.div9}>
           <span className={styles.span3}>{`     `}</span>
-          <span className={styles.span4}>085 16:29 11 1690 Терминал</span>
+          <span className={styles.span4}>085                               16:29                                 11 1690 Терминал</span>
         </div>
-        <div className={styles.div10}> 080 16:24 7 590 Терминал</div>
-        <div className={styles.div11}> 099 16:18 16 820 Терминал</div>
+        <div className={styles.div10}>     080                               16:24                             7 590 Терминал</div>
+        <div className={styles.div11}>      099                             16:18                             16 820 Терминал</div>
         <div className={styles.div12}>
           <span className={styles.span3}>{`  `}</span>
-          <span className={styles.span4}> 083 16:07 4 2190 Терминал</span>
+          <span className={styles.span4}>    083                              16:07                                4 2190 Терминал</span>
         </div>
         <div className={styles.div13}>
           <span className={styles.span7}>{` `}</span>
-          <span className={styles.span2}> 091 15:50 10 590 Терминал</span>
+          <span className={styles.span2}>      091                            15:50                           10 590 Терминал</span>
         </div>
       </div>
       <div className={styles.rectangleGroup}>
         <div className={styles.groupChild} />
         <div className={styles.div14}>
           <span className={styles.span3}>{`     `}</span>
-          <span className={styles.span4}>096 16:25 9 1290 Терминал</span>
+          <span className={styles.span4}>096                               16:25                              9 1290 Терминал</span>
         </div>
       </div>
       <div className={styles.rectangleContainer}>
         <div className={styles.groupChild} />
         <div className={styles.div14}>
           <span className={styles.span3}>{`     `}</span>
-          <span className={styles.span4}>078 16:20 3 1100 Терминал</span>
+          <span className={styles.span4}>078                               16:20                             3 1100 Терминал</span>
         </div>
       </div>
       <div className={styles.groupDiv}>
         <div className={styles.groupChild} />
-        <div className={styles.div16}> 076 16:10 1 2320 Наличный</div>
+        <div className={styles.div16}>      076                              16:10                            1 2320 Наличный</div>
       </div>
       <div className={styles.rectangleParent1}>
         <div className={styles.groupChild} />
-        <div className={styles.div16}> 098 15:59 6 890 Наличный</div>
+        <div className={styles.div16}>      098                              15:59                               6 890 Наличный</div>
       </div>
       <div className={styles.rectangleParent2}>
         <div className={styles.groupChild} />
-        <div className={styles.div16}> 090 15:33 9 780 Терминал</div>
+        <div className={styles.div16}>       090                             15:33                                       9 780  Терминал</div>
       </div>
       <div className={styles.frameParent}>
         <div className={styles.group}>
@@ -194,14 +194,14 @@ const History2 = () => {
           <div className={styles.groupChild3} />
           <div className={styles.groupChild4} />
           <div className={styles.groupChild5} />
-          <div className={styles.div20}>1 Фо-бо 580</div>
-          <div className={styles.div21}>1 Суп фо га 580</div>
+          <div className={styles.div20}>1 Фо-бо                                                                580</div>
+          <div className={styles.div21}>1 Суп фо га                                                          580</div>
           <div className={styles.groupChild6} />
           <div className={styles.groupChild7} />
-          <div className={styles.div22}>2 Ком бо лук лак 630</div>
-          <div className={styles.div23}>1 Свежевый сок манго 399</div>
-          <div className={styles.div24}>1 Свежевый сок ананаса 399</div>
-          <div className={styles.div25}>Промежуточная сумма 3218</div>
+          <div className={styles.div22}>2 Ком бо лук лак                                                 630</div>
+          <div className={styles.div23}>1 Свежевый сок манго                                      399</div>
+          <div className={styles.div24}>1 Свежевый сок ананаса                                  399</div>
+          <div className={styles.div25}>Промежуточная сумма                                     3218</div>
           <b className={styles.b}>Заказ #101</b>
           <div className={styles.div26}>СТ1</div>
           <div
@@ -213,7 +213,7 @@ const History2 = () => {
           <div
             className={styles.div29}
           >{` Кассир: Ло В.Х.                                                    `}</div>
-          <div className={styles.div30}>Скидка 0.00</div>
+          <div className={styles.div30}>Скидка                                                                   0.00</div>
           <div className={styles.groupChild8} />
           <div className={styles.div31} onClick={onText12Click}>
             Печатать чек

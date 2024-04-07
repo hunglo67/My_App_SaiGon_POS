@@ -169,10 +169,6 @@ const Menu13 = () => {
                   alt=""
                   src="/rectangle-41642@2x.png"
                 />
-                <div className={styles.div8}>
-                  <p className={styles.p}>&nbsp;</p>
-                  <p className={styles.p1}>Фо-бо Саи Таи Лан</p>
-                </div>
               </div>
               <div className={styles.phB3}>
                 <div className={styles.phBChild2} />
@@ -208,7 +204,7 @@ const Menu13 = () => {
                   <p className={styles.p1}>Суп Бун том</p>
                 </div>
               </div>
-              <div className={styles.div15}>Супы</div>
+              <div className={styles.div14}>Супы</div>
               <div className={styles.chevronDown2Parent}>
                 <div className={styles.chevronDown2} />
                 <div className={styles.frameInner} />
@@ -217,7 +213,6 @@ const Menu13 = () => {
                   <input className={styles.frameChild1} type="text" />
                   <div className={styles.frameChild2} />
                   <b className={styles.b} onClick={onTextClick}>
-                    {" "}
                     +
                   </b>
                   <a className={styles.group}>
@@ -230,18 +225,18 @@ const Menu13 = () => {
                   </a>
                 </div>
                 <div className={styles.frameChild3} />
-                <div className={styles.div16}>Наименование</div>
+                <div className={styles.div15}>Наименование</div>
                 <img
                   className={styles.xCircleContainedIcon}
                   alt=""
                   src="/xcirclecontained.svg"
                   onClick={onXCircleContainedIconClick}
                 />
-                <div className={styles.div17}>Изображение</div>
-                <div className={styles.div18}>Описание</div>
-                <div className={styles.div19}>Цена</div>
+                <div className={styles.div16}>Изображение</div>
+                <div className={styles.div17}>Описание</div>
+                <div className={styles.div18}>Цена</div>
                 <textarea className={styles.rectangleTextarea} />
-                <div className={styles.div20}> Категория</div>
+                <div className={styles.div19}> Категория</div>
                 <div className={styles.id}> ID</div>
                 <input className={styles.frameChild4} type="number" />
                 <input className={styles.frameChild5} type="text" />
@@ -302,25 +297,24 @@ const Menu13 = () => {
                 <div className={styles.frameDiv}>
                   <div className={styles.frameChild7} />
                   <b className={styles.b2} onClick={onText2Click}>
-                    {" "}
                     Сохранить
                   </b>
                 </div>
               </div>
             </div>
             <div className={styles.parent1} onClick={onFrameContainer3Click}>
-              <div className={styles.div21} onClick={onText3Click}>
+              <div className={styles.div20} onClick={onText3Click}>
                 Горячие блюда
               </div>
               <div className={styles.frameChild8} />
             </div>
-            <div className={styles.div22} onClick={onText4Click}>
+            <div className={styles.div21} onClick={onText4Click}>
               Салаты
             </div>
-            <div className={styles.div23} onClick={onText1Click}>
+            <div className={styles.div22} onClick={onText1Click}>
               Напитки
             </div>
-            <div className={styles.div24} onClick={onText22Click}>
+            <div className={styles.div23} onClick={onText22Click}>
               Десерты
             </div>
           </div>

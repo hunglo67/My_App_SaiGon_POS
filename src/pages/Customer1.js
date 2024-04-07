@@ -1,6 +1,5 @@
 import { useState, useCallback } from "react";
 import "antd/dist/antd.min.css";
-import { DatePicker, Select as AntSelect } from "antd";
 import {
   Select,
   InputLabel,
@@ -11,6 +10,7 @@ import {
   TextField,
   Icon,
 } from "@mui/material";
+import { Select as AntSelect } from "antd";
 import {
   LocalizationProvider,
   DatePicker,
@@ -21,9 +21,9 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Customer1.module.css";
 
 const Customer1 = () => {
-  const [frameDateTimePicker1Value, setFrameDateTimePicker1Value] =
+  const [frameDateTimePickerValue, setFrameDateTimePickerValue] =
     useState(null);
-  const [frameDateTimePicker2Value, setFrameDateTimePicker2Value] =
+  const [frameDateTimePicker1Value, setFrameDateTimePicker1Value] =
     useState(null);
   const navigate = useNavigate();
 
@@ -61,14 +61,6 @@ const Customer1 = () => {
         <div className={styles.customer2Inner}>
           <div className={styles.rectangleParent}>
             <div className={styles.frameChild} />
-            <DatePicker
-              className={styles.frameItem}
-              picker="date"
-              size="small"
-              placeholder="Дата бронирования"
-              bordered={true}
-              allowClear={false}
-            />
             <FormControl
               className={styles.parent}
               variant="filled"
@@ -266,7 +258,7 @@ const Customer1 = () => {
           </div>
         </div>
         <div className={styles.rectangleGroup}>
-          <div className={styles.frameInner} />
+          <div className={styles.frameItem} />
           <FormControl
             className={styles.frameFormcontrol}
             variant="filled"
@@ -387,7 +379,7 @@ const Customer1 = () => {
           </FormControl>
         </div>
         <div className={styles.rectangleContainer}>
-          <div className={styles.frameInner} />
+          <div className={styles.frameItem} />
           <FormControl
             className={styles.frameFormcontrol}
             variant="filled"
@@ -582,19 +574,18 @@ const Customer1 = () => {
           <img className={styles.image3Icon} alt="" src="/image-3@2x.png" />
         </div>
         <div className={styles.c}>Cписок бронирования столов</div>
-        <div className={styles.div9}>+ Добавить новое</div>
         <div className={styles.image1} />
         <div className={styles.customer2Child} />
-        <div className={styles.div10}>Имя</div>
+        <div className={styles.div9}>Имя</div>
         <div className={styles.iconChevronRightvariant2} />
         <div className={styles.id}>ID_Клиента</div>
-        <div className={styles.div11}>Номер телефона</div>
-        <div className={styles.div12}> Стол</div>
-        <div className={styles.div13}>Количество</div>
-        <div className={styles.div14}>Статус</div>
+        <div className={styles.div10}>Номер телефона</div>
+        <div className={styles.div11}> Стол</div>
+        <div className={styles.div12}>Количество</div>
+        <div className={styles.div13}>Статус</div>
         <div className={styles.parent4}>
           <div
-            className={styles.div15}
+            className={styles.div14}
           >{`          110                                Наталья          +79012355461                                2                               19:00                          `}</div>
           <FormControl
             className={styles.parent5}
@@ -712,7 +703,7 @@ const Customer1 = () => {
         </div>
         <div className={styles.parent7}>
           <div
-            className={styles.div15}
+            className={styles.div14}
           >{`          108                                Кирилл          +79017234237                                  6                               19:00                          `}</div>
           <FormControl
             className={styles.parent5}
@@ -830,7 +821,7 @@ const Customer1 = () => {
         </div>
         <div className={styles.parent10}>
           <div
-            className={styles.div17}
+            className={styles.div16}
           >{`          106                                Михайл          +79015423624                                  2                               18:45                          `}</div>
           <FormControl
             className={styles.parent5}
@@ -948,10 +939,10 @@ const Customer1 = () => {
         </div>
         <div className={styles.parent13}>
           <div
-            className={styles.div18}
+            className={styles.div17}
           >{`           102                               Ло                   +79017203586                                  2                               18:30                          `}</div>
           <div
-            className={styles.div19}
+            className={styles.div18}
           >{`           104                               Андрей          +79234567890                                  2                               18:30                          `}</div>
           <FormControl
             className={styles.parent14}
@@ -1082,7 +1073,7 @@ const Customer1 = () => {
           <AntSelect.Option value="Ожидание">Ожидание</AntSelect.Option>
         </AntSelect>
         <div className={styles.frameDiv}>
-          <div className={styles.div20}> 1</div>
+          <div className={styles.div19}>1</div>
           <img
             className={styles.iconArrowRight}
             alt=""
@@ -1094,9 +1085,9 @@ const Customer1 = () => {
             src="/-icon-arrow-right@2x.png"
           />
         </div>
-        <div className={styles.div21}>Время</div>
+        <div className={styles.div20}>Время</div>
         <div className={styles.rectangleParent1}>
-          <div className={styles.frameInner} />
+          <div className={styles.frameItem} />
           <FormControl
             className={styles.frameFormcontrol}
             variant="filled"
@@ -1217,7 +1208,7 @@ const Customer1 = () => {
           </FormControl>
         </div>
         <div className={styles.rectangleParent2}>
-          <div className={styles.frameInner} />
+          <div className={styles.frameItem} />
           <FormControl
             className={styles.frameFormcontrol}
             variant="filled"
@@ -1338,7 +1329,7 @@ const Customer1 = () => {
           </FormControl>
         </div>
         <div className={styles.rectangleParent3}>
-          <div className={styles.frameInner} />
+          <div className={styles.frameItem} />
           <FormControl
             className={styles.frameFormcontrol}
             variant="filled"
@@ -1572,22 +1563,22 @@ const Customer1 = () => {
           <FormHelperText />
         </FormControl>
         <div className={styles.rectangleParent4}>
+          <div className={styles.frameChild3} />
           <div className={styles.frameChild4} />
-          <div className={styles.frameChild5} />
           <input className={styles.rectangleInput} type="text" />
+          <input className={styles.frameChild5} type="text" />
           <input className={styles.frameChild6} type="text" />
-          <input className={styles.frameChild7} type="text" />
-          <input className={styles.frameChild8} type="number" />
+          <input className={styles.frameChild7} type="number" />
           <div className={styles.id1}>
             <b>{` `}</b>
             <span className={styles.id2}>ID</span>
           </div>
-          <div className={styles.div25}>Дата</div>
-          <div className={styles.div26}>Имя</div>
-          <div className={styles.div27}>Номр телефона</div>
-          <div className={styles.div28}>Количество</div>
-          <div className={styles.div29}>Время</div>
-          <div className={styles.frameChild9} />
+          <div className={styles.div24}>Дата</div>
+          <div className={styles.div25}>Имя</div>
+          <div className={styles.div26}>Номр телефона</div>
+          <div className={styles.div27}>Количество</div>
+          <div className={styles.div28}>Время</div>
+          <div className={styles.frameChild8} />
           <div className={styles.xCircleContained}>
             <img
               className={styles.icon}
@@ -1597,16 +1588,15 @@ const Customer1 = () => {
             />
           </div>
           <b className={styles.b}>Добавить новое бронирование</b>
-          <div className={styles.frameChild10} />
+          <div className={styles.frameChild9} />
           <b className={styles.b1} onClick={onText6Click}>
-            {" "}
             Сохранить
           </b>
           <div className={styles.wrapper4}>
             <DatePicker
-              value={frameDateTimePicker1Value}
+              value={frameDateTimePickerValue}
               onChange={(newValue) => {
-                setFrameDateTimePicker1Value(newValue);
+                setFrameDateTimePickerValue(newValue);
               }}
               sx={{}}
               slotProps={{
@@ -1626,9 +1616,9 @@ const Customer1 = () => {
           </div>
           <div className={styles.wrapper5}>
             <TimePicker
-              value={frameDateTimePicker2Value}
+              value={frameDateTimePicker1Value}
               onChange={(newValue) => {
-                setFrameDateTimePicker2Value(newValue);
+                setFrameDateTimePicker1Value(newValue);
               }}
               sx={{}}
               slotProps={{

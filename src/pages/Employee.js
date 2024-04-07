@@ -128,6 +128,9 @@ const Employee = () => {
         <div className={styles.thanhMunuChild} />
         <div className={styles.sup}>
           <div className={styles.supChild} />
+          <div
+            className={styles.id}
+          >{`ID                      Ф.И.О                            Номер телефон                                     Почта                                           Пароль                        Роль   `}</div>
         </div>
         <div className={styles.thanhMunuItem} />
         <div
@@ -139,10 +142,6 @@ const Employee = () => {
         <div
           className={styles.hunglo6720gmailcomSg01112}
         >{`01                      Ло В.Х.                         +79017203519                     Hunglo6720@gmail.com                     SG01112                    Менеджер       `}</div>
-        <div className={styles.id}>
-          {" "}
-          ID ФИО Номер_телефона Почта Пароль Роль
-        </div>
       </div>
       <b className={styles.b1} onClick={onText1Click}>{`          Создать `}</b>
       <div className={styles.div8}>Список пользователей</div>

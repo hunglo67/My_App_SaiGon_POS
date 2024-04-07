@@ -128,7 +128,7 @@ const Report3 = () => {
       <div className={styles.vectorParent}>
         <img className={styles.frameChild} alt="" src="/rectangle-41881.svg" />
         <div className={styles.frameItem} />
-        <div className={styles.div8}>Название Количество Классифицировать</div>
+        <div className={styles.div8}>Название                                     Количество                      Классифицировать</div>
         <div className={styles.div9}>Топ самых продаваемых блюд</div>
         <img
           className={styles.expand02Icon}
@@ -142,56 +142,56 @@ const Report3 = () => {
           <div className={styles.rectangleDiv} />
           <div className={styles.div11}>
             <p className={styles.saigon}>&nbsp;</p>
-            <p className={styles.p1}> Суп бун том 981 02</p>
+            <p className={styles.p1}>   Суп бун том                                      981                                                  02</p>
           </div>
         </div>
         <div className={styles.rectangleGroup}>
           <div className={styles.rectangleDiv} />
           <div className={styles.div11}>
             <p className={styles.saigon}>&nbsp;</p>
-            <p className={styles.p1}> Том чиен су 914 04</p>
+            <p className={styles.p1}>   Том чиен су                                       914                                                  04</p>
           </div>
         </div>
         <div className={styles.rectangleContainer}>
           <div className={styles.rectangleDiv} />
           <div className={styles.div11}>
             <p className={styles.saigon}>&nbsp;</p>
-            <p className={styles.p1}> Том ям 897 06</p>
+            <p className={styles.p1}>   Том ям                                                897                                                  06</p>
           </div>
         </div>
         <div className={styles.frameDiv}>
           <div className={styles.rectangleDiv} />
-          <div className={styles.div14}>
+          <div className={styles.div11}>
             <p className={styles.saigon}>&nbsp;</p>
-            <p className={styles.p1}> Ком бо лук лак 842 08</p>
+            <p className={styles.p1}>   Ком бо лук лак                                 842                                                  08</p>
           </div>
         </div>
         <div className={styles.rectangleParent1}>
           <div className={styles.rectangleDiv} />
           <div className={styles.div11}>
             <p className={styles.saigon}>&nbsp;</p>
-            <p className={styles.p1}> Бананы кляре 809 10</p>
+            <p className={styles.p1}> Бананы кляре                                     809                                                  10</p>
           </div>
         </div>
         <div className={styles.div16}>
           <p className={styles.saigon}>&nbsp;</p>
-          <p className={styles.p1}> Фо-бо 1200 01</p>
+          <p className={styles.p1}>   Фо-бо                                                 1200                                                01</p>
         </div>
         <div className={styles.div17}>
           <p className={styles.saigon}>&nbsp;</p>
-          <p className={styles.p1}> Нем 932 03</p>
+          <p className={styles.p1}>   Нем                                                      932                                                  03</p>
         </div>
         <div className={styles.div18}>
           <p className={styles.saigon}>&nbsp;</p>
-          <p className={styles.p1}> Ком ранг том 909 05</p>
+          <p className={styles.p1}>   Ком ранг том                                    909                                                  05</p>
         </div>
         <div className={styles.div19}>
           <p className={styles.saigon}>&nbsp;</p>
-          <p className={styles.p1}> Салат хоай том 891 07</p>
+          <p className={styles.p1}>   Салат хоай том                                891                                                  07</p>
         </div>
         <div className={styles.div20}>
           <p className={styles.saigon}>&nbsp;</p>
-          <p className={styles.p1}> Бун бо 812 09</p>
+          <p className={styles.p1}>   Бун бо                                                  812                                                  09</p>
         </div>
       </div>
       <FormControl

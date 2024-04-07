@@ -302,20 +302,33 @@
   height: 63px;
   cursor: pointer;
 }
-.supChild,
 .thanhMunuChild {
-  position: absolute;
   top: 9px;
   left: 658px;
   width: 108px;
   height: 29px;
 }
+.id,
+.supChild,
+.thanhMunuChild {
+  position: absolute;
+}
 .supChild {
+  top: 9px;
   left: 16px;
   border-radius: var(--br-mini);
   background-color: var(--color-gainsboro-100);
   width: 1199px;
   height: 57px;
+}
+.id {
+  top: 21px;
+  left: 78px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 1125px;
+  height: 45px;
 }
 .sup,
 .thanhMunuItem {
@@ -335,7 +348,6 @@
 }
 .hunglo6720gmailcomSg01112,
 .hunglo6720yandexruSg01112,
-.id,
 .lovanhunggmailcomSg01113 {
   position: absolute;
   top: 83px;
@@ -347,20 +359,11 @@
   height: 45px;
 }
 .hunglo6720gmailcomSg01112,
-.hunglo6720yandexruSg01112,
-.id {
+.hunglo6720yandexruSg01112 {
   top: 140px;
 }
-.hunglo6720gmailcomSg01112,
-.id {
+.hunglo6720gmailcomSg01112 {
   top: 202px;
-}
-.id {
-  top: 22px;
-  left: 30px;
-  font-size: var(--font-size-lg);
-  width: 1149px;
-  height: 37px;
 }
 .thanhMunu {
   top: 167px;

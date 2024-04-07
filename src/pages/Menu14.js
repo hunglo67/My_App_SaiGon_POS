@@ -211,21 +211,17 @@ const Menu14 = () => {
                   <p className={styles.p}>630 ₽</p>
                   <p className={styles.p1}>Суп Бун том</p>
                 </div>
-                <div className={styles.rectangleContainer}>
+                <div className={styles.frameDiv}>
                   <div className={styles.frameChild} />
-                  <div className={styles.div9}>
-                    <span className={styles.span}>{`+ `}</span>
-                    <span className={styles.span1}>Добавить</span>
-                  </div>
                 </div>
               </div>
-              <div className={styles.div16}>Супы</div>
+              <div className={styles.div15}>Супы</div>
               <div className={styles.chevronDown2Parent}>
                 <div className={styles.chevronDown2} />
-                <div className={styles.frameDiv} />
-                <div className={styles.rectangleParent1}>
+                <div className={styles.frameChild1} />
+                <div className={styles.rectangleContainer}>
                   <input className={styles.rectangleInput} type="text" />
-                  <input className={styles.frameChild1} type="text" />
+                  <input className={styles.frameChild2} type="text" />
                   <a className={styles.group}>
                     <img className={styles.vectorIcon} alt="" />
                     <img
@@ -235,22 +231,22 @@ const Menu14 = () => {
                     />
                   </a>
                 </div>
-                <div className={styles.frameChild2} />
-                <div className={styles.div17}>Наименование</div>
+                <div className={styles.frameChild3} />
+                <div className={styles.div16}>Наименование</div>
                 <img
                   className={styles.xCircleContainedIcon}
                   alt=""
                   src="/xcirclecontained1.svg"
                   onClick={onXCircleContainedIconClick}
                 />
-                <div className={styles.div18}>Изображение</div>
-                <div className={styles.div19}>Описание</div>
-                <div className={styles.div20}>Цена</div>
+                <div className={styles.div17}>Изображение</div>
+                <div className={styles.div18}>Описание</div>
+                <div className={styles.div19}>Цена</div>
                 <textarea className={styles.rectangleTextarea} />
-                <div className={styles.div21}> Категория</div>
-                <div className={styles.id}> ID</div>
-                <input className={styles.frameChild3} type="number" />
-                <input className={styles.frameChild4} type="text" />
+                <div className={styles.div20}> Категория</div>
+                <div className={styles.id}>ID</div>
+                <input className={styles.frameChild4} type="number" />
+                <input className={styles.frameChild5} type="text" />
                 <FormControl
                   className={styles.container}
                   variant="filled"
@@ -303,62 +299,58 @@ const Menu14 = () => {
                   </Select>
                   <FormHelperText />
                 </FormControl>
-                <input className={styles.frameChild5} type="text" />
+                <input className={styles.frameChild6} type="text" />
                 <b className={styles.b}> Создать новые блюда</b>
                 <div
-                  className={styles.rectangleParent2}
+                  className={styles.rectangleParent1}
                   onClick={onFrameContainer1Click}
                 >
-                  <div className={styles.frameChild6} />
-                  <b className={styles.b1}> Сохранить</b>
+                  <div className={styles.frameChild7} />
+                  <b className={styles.b1}>Сохранить</b>
                 </div>
               </div>
             </div>
             <div className={styles.parent1} onClick={onFrameContainer3Click}>
-              <div className={styles.div22} onClick={onTextClick}>
+              <div className={styles.div21} onClick={onTextClick}>
                 Горячие блюда
               </div>
-              <div className={styles.frameChild7} />
+              <div className={styles.frameChild8} />
             </div>
-            <div className={styles.div23} onClick={onText2Click}>
+            <div className={styles.div22} onClick={onText2Click}>
               Салаты
             </div>
-            <div className={styles.div24} onClick={onText1Click}>
+            <div className={styles.div23} onClick={onText1Click}>
               Напитки
             </div>
-            <div className={styles.div25} onClick={onText22Click}>
+            <div className={styles.div24} onClick={onText22Click}>
               Десерты
             </div>
           </div>
         </div>
         <div className={styles.chevronDown2Group}>
           <div className={styles.chevronDown21} />
-          <div className={styles.frameChild8} />
-          <div className={styles.rectangleParent3}>
-            <input className={styles.frameChild9} type="text" />
-            <img className={styles.frameChild10} alt="" />
-            <a className={styles.group1}>
-              <img className={styles.vectorIcon} alt="" />
-            </a>
+          <div className={styles.frameChild9} />
+          <div className={styles.rectangleParent2}>
+            <input className={styles.frameChild10} type="text" />
             <div className={styles.frameChild11} />
           </div>
-          <div className={styles.div26}>Наименование</div>
+          <div className={styles.div25}>Наименование</div>
           <img
             className={styles.xCircleContainedIcon1}
             alt=""
             src="/xcirclecontained1.svg"
             onClick={onXCircleContainedIcon2Click}
           />
-          <div className={styles.id1}> ID</div>
+          <div className={styles.id1}>ID</div>
           <input className={styles.frameChild12} type="text" />
           <input className={styles.frameChild13} type="text" />
           <b className={styles.b2}>Создать категорию блюд</b>
           <div
-            className={styles.rectangleParent4}
+            className={styles.rectangleParent3}
             onClick={onFrameContainer12Click}
           >
-            <div className={styles.frameChild6} />
-            <b className={styles.b1}> Сохранить</b>
+            <div className={styles.frameChild7} />
+            <b className={styles.b3}> Сохранить</b>
           </div>
         </div>
         <div className={styles.tabTrn}>
@@ -366,7 +358,7 @@ const Menu14 = () => {
           <div className={styles.saigonContainer}>
             <p className={styles.saigon}>
               <b>
-                <span className={styles.span6}>{`  `}</span>
+                <span className={styles.span4}>{`  `}</span>
                 <span>SAIGON</span>
               </b>
             </p>

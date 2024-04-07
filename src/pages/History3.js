@@ -141,33 +141,33 @@ const History3 = () => {
       </div>
       <div className={styles.history11Child} />
       <div className={styles.id}>
-        {" "}
-        ID_Заказ Время Стол Итоговая сумма Способ оплаты
+      {" "}
+        ID_Заказ                       Время                           Стол                                Итоговая сумма                   Способ оплаты
       </div>
       <div className={styles.rectangleParent}>
         <div className={styles.groupChild} />
         <div className={styles.div9} onClick={onTextClick}>
-          <span className={styles.span1}> 101</span>
-          <span className={styles.span2}> 16:30 СТ1 3218 Терминал</span>
+        <span className={styles.span1}>    101</span>
+          <span className={styles.span2}>                               16:30                              СТ1                                             3218                                          Терминал</span>
         </div>
         <div className={styles.div10}>
           <span className={styles.span3}>{`     `}</span>
           <span className={styles.span4}>
             <span
               className={styles.span5}
-            >{`085                               16:29                              `}</span>
-            <span className={styles.span6}>СТ</span>
-            <span className={styles.span7}>11 1690 Терминал</span>
-          </span>
+              >{`085                               16:29                              `}</span>
+              <span className={styles.span6}>СТ</span>
+              <span className={styles.span7}>11                                          1690                                           Терминал</span>
+            </span>
         </div>
         <div className={styles.div11}>
           <span
             className={styles.span7}
           >{`     080                               16:24                              `}</span>
           <span>СТ</span>
-          <span className={styles.span7}>7 590 Терминал</span>
+          <span className={styles.span7}>11                                          1690                                           Терминал</span>
         </div>
-        <div className={styles.div12}> 099 16:18 СТ16 820 Терминал</div>
+        <div className={styles.div12}>      099                             16:18                            СТ16                                         820                                           Терминал</div>
         <div className={styles.div13}>
           <span className={styles.span3}>{`  `}</span>
           <span className={styles.span4}>
@@ -175,12 +175,12 @@ const History3 = () => {
               className={styles.span5}
             >{`    083                              16:07                              `}</span>
             <span className={styles.span6}>СТ</span>
-            <span className={styles.span7}>4 2190 Терминал</span>
+            <span className={styles.span7}>6                                             890                                               Наличный</span>
           </span>
         </div>
         <div className={styles.div14}>
           <span className={styles.span15}>{` `}</span>
-          <span className={styles.span2}> 091 15:50 СТ10 590 Терминал</span>
+          <span className={styles.span2}>     099                             16:18                            СТ16                                         820                                           Терминал</span>
         </div>
       </div>
       <div className={styles.rectangleGroup}>
@@ -192,7 +192,7 @@ const History3 = () => {
               className={styles.span5}
             >{`096                               16:25                              `}</span>
             <span className={styles.span6}>СТ</span>
-            <span className={styles.span7}>9 1290 Терминал</span>
+            <span className={styles.span7}>9                                            1290                                           Терминал</span>
           </span>
         </div>
       </div>
@@ -205,7 +205,7 @@ const History3 = () => {
               className={styles.span5}
             >{`078                               16:20                              `}</span>
             <span className={styles.span6}>СТ</span>
-            <span className={styles.span7}>3 1100 Терминал</span>
+            <span className={styles.span7}>3                                            1100                                            Терминал</span>
           </span>
         </div>
       </div>
@@ -216,7 +216,7 @@ const History3 = () => {
             className={styles.span7}
           >{`      076                              16:10                              `}</span>
           <span>СТ</span>
-          <span className={styles.span7}>1 2320 Наличный</span>
+          <span className={styles.span7}>6                                             890                                               Наличный</span>
         </div>
       </div>
       <div className={styles.rectangleParent1}>
@@ -226,7 +226,7 @@ const History3 = () => {
             className={styles.span7}
           >{`      098                              15:59                              `}</span>
           <span>СТ</span>
-          <span className={styles.span7}>6 890 Наличный</span>
+          <span className={styles.span7}>6                                             890                                               Наличный</span>
         </div>
       </div>
       <div className={styles.rectangleParent2}>
@@ -236,7 +236,7 @@ const History3 = () => {
             className={styles.span7}
           >{`      090                               15:33                             `}</span>
           <span>СТ</span>
-          <span className={styles.span7}>9 780 Терминал</span>
+          <span className={styles.span7}>6                                             890                                               Наличный</span>
         </div>
       </div>
       <div className={styles.history11Inner}>

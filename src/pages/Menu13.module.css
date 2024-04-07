@@ -357,7 +357,7 @@
   width: 267px;
   height: 322px;
 }
-.div15,
+.div14,
 .phB3,
 .phB4 {
   position: absolute;
@@ -369,7 +369,7 @@
   width: 272px;
   height: 321px;
 }
-.div15 {
+.div14 {
   top: 10px;
   left: 13px;
   font-size: var(--font-size-5xl);
@@ -434,7 +434,6 @@
   top: 97px;
   left: 490px;
   display: inline-block;
-  white-space: pre-wrap;
   width: 34px;
   height: 31px;
   cursor: pointer;
@@ -486,7 +485,7 @@
   background-color: var(--color-gainsboro-100);
   height: 69px;
 }
-.div16 {
+.div15 {
   position: absolute;
   top: 258px;
   left: 46px;
@@ -503,9 +502,9 @@
   height: 24px;
   cursor: pointer;
 }
+.div16,
 .div17,
-.div18,
-.div19 {
+.div18 {
   position: absolute;
   top: 513px;
   left: 59px;
@@ -514,13 +513,13 @@
   width: 128px;
   height: 19px;
 }
-.div18,
-.div19 {
+.div17,
+.div18 {
   top: 427px;
   left: 93px;
   width: 94px;
 }
-.div19 {
+.div18 {
   top: 334px;
   left: 130px;
   width: 87px;
@@ -538,20 +537,19 @@
   width: 240px;
   height: 60px;
 }
-.div20,
+.div19,
 .id {
   position: absolute;
-  top: 81px;
-  left: 93px;
+  top: 102px;
+  left: 90px;
   font-weight: 500;
-  white-space: pre-wrap;
   display: inline-block;
   width: 133px;
   height: 44px;
 }
 .id {
-  top: 176px;
-  left: 115px;
+  top: 177px;
+  left: 151px;
 }
 .frameChild4,
 .frameChild5 {
@@ -609,12 +607,11 @@
   position: absolute;
 }
 .b2 {
-  top: -5px;
-  left: 23px;
+  top: 15px;
+  left: 21px;
   display: inline-block;
-  white-space: pre-wrap;
   width: 127px;
-  height: 53px;
+  height: 48px;
   cursor: pointer;
 }
 .frameDiv {
@@ -643,13 +640,13 @@
   height: 66px;
   font-size: var(--font-size-xl);
 }
-.div21,
+.div20,
 .frameChild8,
 .sup {
   position: absolute;
   top: 0;
 }
-.div21 {
+.div20 {
   left: 0;
   font-weight: 600;
   display: inline-block;
@@ -664,9 +661,9 @@
   height: 33px;
   display: none;
 }
+.div21,
 .div22,
 .div23,
-.div24,
 .parent1 {
   position: absolute;
   top: 10px;
@@ -675,23 +672,23 @@
   height: 27px;
   cursor: pointer;
 }
+.div21,
 .div22,
-.div23,
-.div24 {
+.div23 {
   left: 359px;
   font-weight: 600;
   display: inline-block;
   width: 111px;
   height: 21px;
 }
-.div23,
-.div24 {
+.div22,
+.div23 {
   top: 9px;
   left: 658px;
   width: 108px;
   height: 29px;
 }
-.div24 {
+.div23 {
   top: 10px;
   left: 509px;
   width: 142px;

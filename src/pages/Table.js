@@ -96,7 +96,7 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div7}> СТ5</div>
+        <div className={styles.div7}>СТ5</div>
       </div>
       <div className={styles.bn2}>
         <div className={styles.bn4Child} />
@@ -105,7 +105,7 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div7}> СТ2</div>
+        <div className={styles.div8}>СТ2</div>
       </div>
       <div className={styles.bn5}>
         <div className={styles.bn5Child} />
@@ -115,7 +115,7 @@ const Table = () => {
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
         <div className={styles.div9}> #103</div>
-        <div className={styles.div10}> СТ6</div>
+        <div className={styles.div10}>СТ6</div>
       </div>
       <div className={styles.bn3}>
         <div className={styles.bn4Child} />
@@ -124,7 +124,7 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div7}> СТ3</div>
+        <div className={styles.div11}>СТ3</div>
       </div>
       <div className={styles.bn7}>
         <div className={styles.bn4Child} />
@@ -133,7 +133,7 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div7}> СТ4</div>
+        <div className={styles.div8}>СТ4</div>
       </div>
       <div className={styles.bn8}>
         <div className={styles.bn5Child} />
@@ -142,8 +142,8 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div13}> #091</div>
-        <div className={styles.div7}> СТ8</div>
+        <div className={styles.div13}> #087</div>
+        <div className={styles.div8}>СТ8</div>
       </div>
       <div className={styles.bn6}>
         <div className={styles.bn4Child} />
@@ -152,10 +152,10 @@ const Table = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.ellipseDiv} />
         <div className={styles.bn4Child1} />
-        <div className={styles.div7}> СТ7</div>
+        <div className={styles.div7}>СТ7</div>
       </div>
       <div className={styles.group}>
-        <div className={styles.div16}> 1</div>
+        <div className={styles.div16}>1</div>
         <img
           className={styles.iconArrowRight}
           alt=""
@@ -174,7 +174,7 @@ const Table = () => {
       <div className={styles.table1Item} />
       <div className={styles.table1Inner} />
       <div className={styles.table1Child1} />
-      <div className={styles.div20}> СТОЛ СТ1</div>
+      <div className={styles.div20}>СТОЛ СТ1</div>
       <div className={styles.div21}>Заказ #091</div>
       <div className={styles.bn1}>
         <div className={styles.bn1Child} />
@@ -184,7 +184,7 @@ const Table = () => {
         <div className={styles.bn1Child2} />
         <div className={styles.bn1Child3} />
         <div className={styles.div22}>#091</div>
-        <div className={styles.div7}> СТ1</div>
+        <div className={styles.div23}>СТ1</div>
       </div>
       <div className={styles.table1Child2} />
       <div className={styles.table1Child3} />
