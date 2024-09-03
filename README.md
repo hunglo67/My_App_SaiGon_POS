@@ -1,5 +1,5 @@
 
-  # APP1
+  # Graduation Thesis: Designing an Information System to Support Sales for a Catering Enterprise Using the Example of LLC "Saigon"
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
