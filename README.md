@@ -46,6 +46,7 @@
   ->From the documentation, I developed a POS system for LLC Saigon (Since I'm not a developer, I only worked on the interface)
   
   Technology used: NodeJs
+  ![Alt text](URL_ảnh)
   
   link demo: https://www.youtube.com/watch?v=xSfEYCNHKzc
 
