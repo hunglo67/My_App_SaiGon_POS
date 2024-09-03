@@ -11,13 +11,15 @@
   4. ECONOMIC SECTION
   ### 1. RESEARCH SECTION
   Technology used: Aris Express, draw.io, BPMN
+  
   The task is:
   + Research on LLC Saigon: Organizational structure information, Business activities, Financial situation
   + Analyze external factors affecting LLC Saigon: Competitors, Customers, Political environment
   + Analyze the current business process: As-is Analysis, modeling with business process tree and BPMN diagram
   + Explore available market solutions that can be applied to automate the process
-  + ### 2. ANALYTICAL SECTION
+  ### 2. ANALYTICAL SECTION
   Technology used: BPMN, Erwin Data Modeler, Figma
+  
   The task is:
   + Model the future business process using BPMN to identify the benefits of implementing the information system
   + Design the logical data model using Erwin Data Modeler
@@ -25,6 +27,7 @@
   + Design the system interface using Figma
   ### 3. TECHNOLOGICAL SECTION
   Technology used: PostgresSQl, draw.io
+  
   The task is:
   + Select solutions for system development
   + Description of the implementation of the client-side
@@ -33,11 +36,18 @@
   + Create user documentation for new users
  ### 4. ECONOMIC SECTION
  Technology used: Gant.pro
+ 
  The task is: 
  + Project Organization and Planning
  + Calculation of Project Implementation Costs
+
 [View the full report document here](https://github.com/hunglo67/My_App_SaiGon_POS/blob/main/090303_20%D0%9B0207_%D0%9B%D0%BE_%D0%92%D0%A5.pdf))
 
+  ->From the documentation, I developed a POS system for LLC Saigon (Since I'm not a developer, I only worked on the interface)
+  
+  Technology used: NodeJs
+  
+  link demo: https://www.youtube.com/watch?v=xSfEYCNHKzc
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
