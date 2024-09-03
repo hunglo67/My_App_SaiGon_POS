@@ -36,6 +36,8 @@
  The task is: 
  + Project Organization and Planning
  + Calculation of Project Implementation Costs
+[Xem tài liệu chi tiết tại đây](https://github.com/user/repository/blob/main/tenfile.pdf)
+
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
