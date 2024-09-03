@@ -36,7 +36,7 @@
  The task is: 
  + Project Organization and Planning
  + Calculation of Project Implementation Costs
-[Xem tài liệu chi tiết tại đây](https://github.com/user/repository/blob/main/tenfile.pdf)
+[View the full report document here](https://github.com/hunglo67/My_App_SaiGon_POS/blob/main/090303_20%D0%9B0207_%D0%9B%D0%BE_%D0%92%D0%A5.pdf))
 
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
